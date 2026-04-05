@@ -1,225 +1,56 @@
-# CLASIFICACIÓN
-
-## Nombre de la base de datos
-**Titanic Dataset – Titanic Base de Datos**
-
-## Fuente
-https://github.com/datasciencedojo/datasets/blob/master/titanic.csv
-
----
-
-## Descripción general del problema
-
-La base de datos Titanic contiene información sobre los pasajeros que viajaban en el RMS Titanic, un barco británico que se hundió en el océano Atlántico en abril de 1912. El hundimiento del Titanic es uno de los naufragios más famosos de la historia.
-
-El 15 de abril de 1912, durante su viaje inaugural, el RMS Titanic, considerado ampliamente como “insumergible”, se hundió después de chocar con un iceberg. Lamentablemente, no había suficientes botes salvavidas para todas las personas a bordo, lo que provocó la muerte de 1502 de los 2224 pasajeros y tripulantes.
-
-Aunque hubo cierto elemento de suerte en la supervivencia, parece que algunos grupos de personas tenían mayor probabilidad de sobrevivir que otros.
-
----
-
-## ¿De dónde se recolectaron los datos?
-
-Los datos provienen de:
-
-- Registros históricos del viaje del Titanic  
-- Listas oficiales de pasajeros  
-- Informes de supervivencia posteriores al accidente  
-
-Posteriormente:
-
-- Fueron organizados y digitalizados por investigadores y comunidades académicas de análisis de datos (especialmente UCI y Kaggle)
-
-Hoy en día se usan como:
-
-- Base educativa  
-- Competencia de machine learning  
-- Ejemplo clásico de clasificación  
-
----
-
-## ¿Quién realizó el estudio?
-
-No fue un estudio experimental moderno.
-
-Los datos fueron:
-
-- Recopilados originalmente por autoridades marítimas británicas  
-- Documentados en informes oficiales del desastre  
-- Estructurados posteriormente por científicos de datos y universidades  
-
-Actualmente la base es difundida por:
-
-- Kaggle  
-- UCI Machine Learning Repository  
-
----
-
-## Objetivo del análisis
-
-Construir un modelo predictivo que responda a la pregunta:
-
-> ¿Qué tipo de personas tenían más probabilidades de sobrevivir?
-
-Utilizando datos de los pasajeros como:
-
-- Nombre  
-- Edad  
-- Género  
-- Clase socioeconómica  
-
-Cada fila representa un pasajero y contiene variables demográficas, económicas y de ubicación dentro del barco.
-
----
-
-## Variable objetivo
-
-**Survived**
-
-- Tipo: Variable categórica binaria  
-- Valores:  
-  - 0 → No sobrevivió  
-  - 1 → Sobrevivió  
-
-✔ Es un problema de **clasificación supervisada**
-
----
-
-## Diccionario de variables
-
-### PassengerId
-- Tipo: Cualitativa nominal  
-- Descripción: Identificador único del pasajero  
-
----
-
-### Survived
-- Tipo: Cualitativa binaria  
-- Descripción: Indica si sobrevivió o no  
-- Valores:
-  - 0 = No sobrevivió  
-  - 1 = Sobrevivió  
-
----
-
-### Pclass
-- Tipo: Cualitativa ordinal  
-- Descripción: Clase socioeconómica  
-- Valores:
-  - 1 = Alta  
-  - 2 = Media  
-  - 3 = Baja  
-
----
-
-### Name
-- Tipo: Cualitativa nominal  
-- Descripción: Nombre del pasajero  
-
----
-
-### Sex
-- Tipo: Cualitativa binaria  
-- Valores:
-  - male = hombre  
-  - female = mujer  
-
----
-
-### Age
-- Tipo: Cuantitativa continua  
-- Descripción: Edad  
-
----
-
-### SibSp
-- Tipo: Cuantitativa discreta  
-- Descripción: Número de familiares (hermanos/esposo/a)  
-
----
-
-### Parch
-- Tipo: Cuantitativa discreta  
-- Descripción: Padres o hijos a bordo  
-
----
-
-### Ticket
-- Tipo: Cualitativa nominal  
-- Descripción: Código del tiquete  
-
----
-
-### Fare
-- Tipo: Cuantitativa continua  
-- Descripción: Precio del pasaje  
-
----
-
-### Cabin
-- Tipo: Cualitativa nominal  
-- Nota: Muchos valores faltantes  
-
----
-
-### Embarked
-- Tipo: Cualitativa nominal  
-- Valores:
-  - C = Cherbourg  
-  - Q = Queenstown  
-  - S = Southampton  
-
----
-
-## Tamaño del dataset
-
-- Número de observaciones: **891 pasajeros**  
-- Número de variables: **12**
-
----
-
-## Hipótesis
-
-### Hipótesis general
-
-- H₀: Las características no influyen en la supervivencia  
-- H₁: Al menos una característica influye  
-
----
-
-### Hipótesis específicas
-
-#### Sexo
-- H₀: Igual probabilidad  
-- H₁: Mujeres sobreviven más  
-
-#### Clase
-- H₀: No influye  
-- H₁: Clases altas sobreviven más  
-
-#### Edad
-- H₀: No influye  
-- H₁: Jóvenes sobreviven más  
-
-#### Tarifa
-- H₀: No influye  
-- H₁: Mayor tarifa → mayor supervivencia  
-
----
-
-## Técnicas estadísticas sugeridas
-
-- Estadística descriptiva  
-- Prueba Chi-cuadrado  
-- Prueba t o Mann-Whitney  
-- Regresión logística  
-
----
-
-## Modelo
-
-Se pueden implementar modelos de clasificación como:
-
-- Regresión logística  
-- Random Forest  
-- Árboles de decisión  
+# Documentación base de datos de clasificación
+
+## a) Nombre de la base de datos
+Chronic Kidney Disease / dataset_clasificacion.csv
+
+## b) Fuente (URL)
+https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease
+
+## c) Descripción general del problema
+Esta base de datos contiene información clínica y de laboratorio de pacientes, con el fin de identificar si una persona presenta o no enfermedad renal crónica. El problema consiste en clasificar a los pacientes en dos grupos: con enfermedad renal crónica o sin enfermedad renal crónica, a partir de variables médicas, físicas y de laboratorio.
+
+## d) Objetivo del análisis
+Construir un modelo de clasificación que permita predecir si un paciente presenta enfermedad renal crónica, usando la información clínica y de laboratorio disponible en la base de datos.
+
+## e) Variable objetivo (variable respuesta)
+class
+
+## f) Diccionario de variables
+
+- age: edad del paciente — Numérica
+- bp: presión arterial — Numérica
+- sg: gravedad específica de la orina — Numérica
+- al: albúmina — Numérica
+- su: azúcar en orina — Numérica
+- rbc: glóbulos rojos — Categórica nominal
+- pc: células de pus — Categórica nominal
+- pcc: cúmulos de células de pus — Categórica nominal
+- ba: bacterias — Categórica nominal
+- bgr: glucosa aleatoria en sangre — Numérica
+- bu: urea en sangre — Numérica
+- sc: creatinina sérica — Numérica
+- sod: sodio — Numérica
+- pot: potasio — Numérica
+- hemo: hemoglobina — Numérica
+- pcv: volumen celular empaquetado — Numérica
+- wbcc: conteo de glóbulos blancos — Numérica
+- rbcc: conteo de glóbulos rojos — Numérica
+- htn: hipertensión — Categórica nominal
+- dm: diabetes mellitus — Categórica nominal
+- cad: enfermedad arterial coronaria — Categórica nominal
+- appet: apetito — Categórica nominal
+- pe: edema pedal — Categórica nominal
+- ane: anemia — Categórica nominal
+- class: presencia de enfermedad renal crónica — Categórica nominal binaria
+
+## g) Número de observaciones
+400
+
+## h) Número de variables
+25
+
+## i) Posibles hipótesis de estudio
+1. Los pacientes con niveles altos de creatinina sérica y urea en sangre tienen mayor probabilidad de presentar enfermedad renal crónica.
+2. La hipertensión y la diabetes mellitus están asociadas con la presencia de enfermedad renal crónica.
+3. Los indicadores hematológicos, como hemoglobina, volumen celular empaquetado y conteo de glóbulos rojos, ayudan a predecir la clase del paciente.
+4. La combinación de variables clínicas y de laboratorio permite clasificar adecuadamente a los pacientes entre CKD y no CKD.
