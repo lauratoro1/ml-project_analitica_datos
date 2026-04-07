@@ -3,7 +3,6 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 from scipy.stats import chi2_contingency, spearmanr, kruskal, pearsonr
 
 st.set_page_config(page_title="Laboratorio 3", layout="wide")
@@ -16,29 +15,17 @@ opcion = st.selectbox(
     ["Clasificación", "Regresión"]
 )
 
-# -------------------------
-# Cargar datos (CORREGIDO)
-# -------------------------
-@st.cache_data
 def cargar_datos(opcion):
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    db_path = os.path.join(BASE_DIR, "data", "database", "datos.db")
-
-    if not os.path.exists(db_path):
-        st.error(f"No se encontró la base de datos en: {db_path}")
-        st.stop()
-
-    conn = sqlite3.connect(db_path)
-
     if opcion == "Clasificación":
-        query = "SELECT * FROM clasificacion"
+        conn = sqlite3.connect("./database/clasificacion.db")
+        df = pd.read_sql_query("SELECT * FROM clasificacion", conn)
+        conn.close()
+        return df
     else:
-        query = "SELECT * FROM regresion"
-
-    df = pd.read_sql_query(query, conn)
-    conn.close()
-
-    return df
+        conn = sqlite3.connect("./database/regresion.db")
+        df = pd.read_sql_query("SELECT * FROM regresion", conn)
+        conn.close()
+        return df
 
 df = cargar_datos(opcion)
 
@@ -48,9 +35,6 @@ if opcion == "Regresión" and "charges" in df.columns:
 
 st.write(f"**Base seleccionada:** {opcion}")
 
-# -------------------------
-# Exploración básica
-# -------------------------
 st.subheader("Vista previa de los datos")
 st.dataframe(df.head())
 
@@ -127,7 +111,7 @@ else:
     st.write("No hay suficientes variables numéricas para calcular correlaciones.")
 
 # -------------------------
-# Imputación
+# Imputación de datos faltantes
 # -------------------------
 st.subheader("Imputación de datos faltantes")
 
@@ -140,6 +124,7 @@ df_imputado = df.copy()
 variables_numericas = df_imputado.select_dtypes(include="number").columns.tolist()
 variables_categoricas = df_imputado.select_dtypes(exclude="number").columns.tolist()
 
+# Imputación simple
 for col in variables_numericas:
     df_imputado[col] = df_imputado[col].fillna(df_imputado[col].mean())
 
@@ -162,6 +147,7 @@ st.subheader("Pruebas estadísticas")
 if opcion == "Clasificación":
     st.write("### Base de clasificación")
 
+    # Chi-cuadrado: htn vs class
     if all(col in df_imputado.columns for col in ["htn", "class"]):
         tabla = pd.crosstab(df_imputado["htn"], df_imputado["class"])
         chi2, p, dof, expected = chi2_contingency(tabla)
@@ -170,22 +156,82 @@ if opcion == "Clasificación":
         st.dataframe(tabla)
         st.write(f"Chi-cuadrado: {chi2:.4f}")
         st.write(f"p-valor: {p:.6e}")
+        if p < 0.05:
+            st.success("Existe asociación significativa entre htn y class.")
+        else:
+            st.info("No se encontró asociación significativa entre htn y class.")
 
+    # Spearman: hemo vs sc
     if all(col in df_imputado.columns for col in ["hemo", "sc"]):
         subset = df_imputado[["hemo", "sc"]].dropna()
         rho, p = spearmanr(subset["hemo"], subset["sc"])
 
         st.write("**Spearman: hemo vs sc**")
-        st.write(f"Coeficiente: {rho:.4f}")
+        st.write(f"Coeficiente de Spearman: {rho:.4f}")
         st.write(f"p-valor: {p:.6e}")
+        if p < 0.05:
+            st.success("Existe dependencia significativa entre hemo y sc.")
+        else:
+            st.info("No se encontró dependencia significativa entre hemo y sc.")
+
+    # Kruskal-Wallis: hemo según class
+    if all(col in df_imputado.columns for col in ["hemo", "class"]):
+        grupo_ckd = df_imputado[df_imputado["class"] == "ckd"]["hemo"].dropna()
+        grupo_notckd = df_imputado[df_imputado["class"] == "notckd"]["hemo"].dropna()
+
+        if len(grupo_ckd) > 0 and len(grupo_notckd) > 0:
+            stat, p = kruskal(grupo_ckd, grupo_notckd)
+
+            st.write("**Kruskal-Wallis: hemo según class**")
+            st.write(f"Estadístico: {stat:.4f}")
+            st.write(f"p-valor: {p:.6e}")
+            if p < 0.05:
+                st.success("Existen diferencias significativas de hemo entre ckd y notckd.")
+            else:
+                st.info("No se encontraron diferencias significativas de hemo entre ckd y notckd.")
 
 else:
     st.write("### Base de regresión")
 
+    # Chi-cuadrado: smoker vs sex
+    if all(col in df_imputado.columns for col in ["smoker", "sex"]):
+        tabla = pd.crosstab(df_imputado["smoker"], df_imputado["sex"])
+        chi2, p, dof, expected = chi2_contingency(tabla)
+
+        st.write("**Chi-cuadrado: smoker vs sex**")
+        st.dataframe(tabla)
+        st.write(f"Chi-cuadrado: {chi2:.4f}")
+        st.write(f"p-valor: {p:.6e}")
+        if p < 0.05:
+            st.success("Existe asociación significativa entre smoker y sex.")
+        else:
+            st.info("No se encontró asociación significativa entre smoker y sex.")
+
+    # Pearson: age vs charges
     if all(col in df_imputado.columns for col in ["age", "charges"]):
         subset = df_imputado[["age", "charges"]].dropna()
         r, p = pearsonr(subset["age"], subset["charges"])
 
         st.write("**Pearson: age vs charges**")
-        st.write(f"Coeficiente: {r:.4f}")
+        st.write(f"Coeficiente de Pearson: {r:.4f}")
         st.write(f"p-valor: {p:.6e}")
+        if p < 0.05:
+            st.success("Existe dependencia lineal significativa entre age y charges.")
+        else:
+            st.info("No se encontró dependencia lineal significativa entre age y charges.")
+
+    # Kruskal-Wallis: charges según smoker
+    if all(col in df_imputado.columns for col in ["charges", "smoker"]):
+        grupo_no = df_imputado[df_imputado["smoker"] == "no"]["charges"].dropna()
+        grupo_yes = df_imputado[df_imputado["smoker"] == "yes"]["charges"].dropna()
+
+        if len(grupo_no) > 0 and len(grupo_yes) > 0:
+            stat, p = kruskal(grupo_no, grupo_yes)
+
+            st.write("**Kruskal-Wallis: charges según smoker**")
+            st.write(f"Estadístico: {stat:.4f}")
+            st.write(f"p-valor: {p:.6e}")
+            if p < 0.05:
+                st.success("Existen diferencias significativas de charges entre fumadores y no fumadores.")
+            else:
+                st.info("No se encontraron diferencias significativas de charges entre fumadores y no fumadores.")
