@@ -17,7 +17,7 @@ opcion = st.selectbox(
 )
 
 # -------------------------
-# Cargar datos (CORREGIDO)
+# Cargar datos 
 # -------------------------
 @st.cache_data
 def cargar_datos(opcion):
