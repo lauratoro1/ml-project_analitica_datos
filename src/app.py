@@ -1,242 +1,212 @@
 import streamlit as st
+import joblib
 import pandas as pd
-import sqlite3
-import os
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import chi2_contingency, spearmanr, kruskal, pearsonr
+import numpy as np
 
-st.set_page_config(page_title="Laboratorio 3", layout="wide")
+# =====================================================
+# CONFIGURACIÓN
+# =====================================================
 
-st.title("Laboratorio 3 - Analítica de Datos")
-st.subheader("Selección de base de datos")
-
-opcion = st.selectbox(
-    "Elige la base de datos",
-    ["Clasificación", "Regresión"]
+st.set_page_config(
+    page_title="Despliegue de Modelos ML",
+    page_icon="🤖",
+    layout="centered"
 )
 
-# =========================
-# CARGA DE DATOS CORREGIDA
-# =========================
-def cargar_datos(opcion):
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(BASE_DIR, "data", "database", "datos.db")
+# =====================================================
+# CARGAR MODELOS
+# =====================================================
 
-    conn = sqlite3.connect(path)
+modelo_regresion = joblib.load(
+    "notebooks/models/model_regresion.joblib"
+)
 
-    if opcion == "Clasificación":
-        query = "SELECT * FROM clasificacion"
-    else:
-        query = "SELECT * FROM regresion"
+modelo_clasificacion = joblib.load(
+    "notebooks/models/model_classification.joblib"
+)
 
-    df = pd.read_sql_query(query, conn)
-    conn.close()
-    return df
+# =====================================================
+# TÍTULO
+# =====================================================
 
-df = cargar_datos(opcion)
+st.title("🤖 Aplicación de Machine Learning")
 
-# Corrección para regresión
-if opcion == "Regresión" and "charges" in df.columns:
-    df["charges"] = pd.to_numeric(df["charges"], errors="coerce")
+st.write("""
+Aplicación desarrollada con Streamlit para realizar
+predicciones usando modelos de regresión y clasificación.
+""")
 
-st.write(f"**Base seleccionada:** {opcion}")
+# =====================================================
+# SIDEBAR
+# =====================================================
 
-st.subheader("Vista previa de los datos")
-st.dataframe(df.head())
+st.sidebar.title("Configuración")
 
-st.subheader("Dimensiones del dataset")
-st.write(f"Filas: {df.shape[0]}")
-st.write(f"Columnas: {df.shape[1]}")
+tipo_modelo = st.sidebar.selectbox(
+    "Seleccione el modelo",
+    (
+        "Regresión",
+        "Clasificación"
+    )
+)
 
-st.subheader("Tipos de datos")
-st.dataframe(pd.DataFrame(df.dtypes, columns=["Tipo de dato"]))
+# =====================================================
+# MODELO REGRESIÓN
+# =====================================================
 
-st.subheader("Estadísticas descriptivas")
-st.dataframe(df.describe(include="all"))
-# -------------------------
-# Gráficos principales
-# -------------------------
-st.subheader("Gráficos principales")
+if tipo_modelo == "Regresión":
 
-variables_numericas = df.select_dtypes(include="number").columns.tolist()
+    st.header("📈 Predicción de Costos Médicos")
 
-if variables_numericas:
-    variable_hist = st.selectbox(
-        "Selecciona una variable numérica para histograma",
-        variables_numericas
+    age = st.slider(
+        "Edad",
+        18,
+        100,
+        30
     )
 
-    fig, ax = plt.subplots(figsize=(8, 4))
-    ax.hist(df[variable_hist].dropna(), bins=15)
-    ax.set_title(f"Histograma de {variable_hist}")
-    ax.set_xlabel(variable_hist)
-    ax.set_ylabel("Frecuencia")
-    st.pyplot(fig)
+    sex = st.selectbox(
+        "Sexo",
+        (
+            "female",
+            "male"
+        )
+    )
 
-if opcion == "Clasificación":
-    if "class" in df.columns:
-        fig, ax = plt.subplots(figsize=(6, 4))
-        sns.countplot(x="class", data=df, ax=ax)
-        ax.set_title("Distribución de la variable objetivo (class)")
-        st.pyplot(fig)
+    bmi = st.number_input(
+        "BMI",
+        min_value=10.0,
+        max_value=60.0,
+        value=25.0
+    )
 
-    if all(col in df.columns for col in ["class", "hemo"]):
-        fig, ax = plt.subplots(figsize=(6, 4))
-        sns.boxplot(x="class", y="hemo", data=df, ax=ax)
-        ax.set_title("Hemoglobina por clase")
-        st.pyplot(fig)
+    children = st.slider(
+        "Número de hijos",
+        0,
+        10,
+        0
+    )
 
-else:
-    if all(col in df.columns for col in ["age", "charges"]):
-        fig, ax = plt.subplots(figsize=(6, 4))
-        sns.scatterplot(x="age", y="charges", data=df, ax=ax)
-        ax.set_title("Edad vs cargos médicos")
-        st.pyplot(fig)
+    smoker = st.selectbox(
+        "Fumador",
+        (
+            "yes",
+            "no"
+        )
+    )
 
-    if all(col in df.columns for col in ["smoker", "charges"]):
-        fig, ax = plt.subplots(figsize=(6, 4))
-        sns.boxplot(x="smoker", y="charges", data=df, ax=ax)
-        ax.set_title("Cargos médicos según hábito de fumar")
-        st.pyplot(fig)
+    region = st.selectbox(
+        "Región",
+        (
+            "southwest",
+            "southeast",
+            "northwest",
+            "northeast"
+        )
+    )
 
-# -------------------------
-# Correlaciones
-# -------------------------
-st.subheader("Correlaciones")
+    # =================================================
+    # DATAFRAME
+    # =================================================
 
-if len(variables_numericas) >= 2:
-    corr = df[variables_numericas].corr()
+    datos = pd.DataFrame({
+        "age": [age],
+        "sex": [sex],
+        "bmi": [bmi],
+        "children": [children],
+        "smoker": [smoker],
+        "region": [region]
+    })
 
-    fig, ax = plt.subplots(figsize=(10, 6))
-    sns.heatmap(corr, annot=True, cmap="coolwarm", fmt=".2f", ax=ax)
-    ax.set_title("Matriz de correlación")
-    st.pyplot(fig)
-else:
-    st.write("No hay suficientes variables numéricas para calcular correlaciones.")
+    # =================================================
+    # PREDICCIÓN
+    # =================================================
 
-# -------------------------
-# Imputación de datos faltantes
-# -------------------------
-st.subheader("Imputación de datos faltantes")
+    if st.button("Predict"):
 
-faltantes_antes = df.isnull().sum()
-st.write("Valores faltantes antes de la imputación:")
-st.dataframe(faltantes_antes[faltantes_antes > 0])
+        try:
 
-df_imputado = df.copy()
+            prediccion = modelo_regresion.predict(datos)
 
-variables_numericas = df_imputado.select_dtypes(include="number").columns.tolist()
-variables_categoricas = df_imputado.select_dtypes(exclude="number").columns.tolist()
+            st.success(
+                f"💰 Costo médico estimado: ${prediccion[0]:,.2f}"
+            )
 
-# Imputación simple
-for col in variables_numericas:
-    df_imputado[col] = df_imputado[col].fillna(df_imputado[col].mean())
+        except Exception as e:
 
-for col in variables_categoricas:
-    if df_imputado[col].isnull().sum() > 0:
-        df_imputado[col] = df_imputado[col].fillna(df_imputado[col].mode()[0])
+            st.error(f"Error: {e}")
 
-faltantes_despues = df_imputado.isnull().sum()
-st.write("Valores faltantes después de la imputación:")
-st.dataframe(faltantes_despues[faltantes_despues > 0])
-
-st.write("Vista previa de los datos imputados:")
-st.dataframe(df_imputado.head())
-
-# -------------------------
-# Pruebas estadísticas
-# -------------------------
-st.subheader("Pruebas estadísticas")
-
-if opcion == "Clasificación":
-    st.write("### Base de clasificación")
-
-    # Chi-cuadrado: htn vs class
-    if all(col in df_imputado.columns for col in ["htn", "class"]):
-        tabla = pd.crosstab(df_imputado["htn"], df_imputado["class"])
-        chi2, p, dof, expected = chi2_contingency(tabla)
-
-        st.write("**Chi-cuadrado: htn vs class**")
-        st.dataframe(tabla)
-        st.write(f"Chi-cuadrado: {chi2:.4f}")
-        st.write(f"p-valor: {p:.6e}")
-        if p < 0.05:
-            st.success("Existe asociación significativa entre htn y class.")
-        else:
-            st.info("No se encontró asociación significativa entre htn y class.")
-
-    # Spearman: hemo vs sc
-    if all(col in df_imputado.columns for col in ["hemo", "sc"]):
-        subset = df_imputado[["hemo", "sc"]].dropna()
-        rho, p = spearmanr(subset["hemo"], subset["sc"])
-
-        st.write("**Spearman: hemo vs sc**")
-        st.write(f"Coeficiente de Spearman: {rho:.4f}")
-        st.write(f"p-valor: {p:.6e}")
-        if p < 0.05:
-            st.success("Existe dependencia significativa entre hemo y sc.")
-        else:
-            st.info("No se encontró dependencia significativa entre hemo y sc.")
-
-    # Kruskal-Wallis: hemo según class
-    if all(col in df_imputado.columns for col in ["hemo", "class"]):
-        grupo_ckd = df_imputado[df_imputado["class"] == "ckd"]["hemo"].dropna()
-        grupo_notckd = df_imputado[df_imputado["class"] == "notckd"]["hemo"].dropna()
-
-        if len(grupo_ckd) > 0 and len(grupo_notckd) > 0:
-            stat, p = kruskal(grupo_ckd, grupo_notckd)
-
-            st.write("**Kruskal-Wallis: hemo según class**")
-            st.write(f"Estadístico: {stat:.4f}")
-            st.write(f"p-valor: {p:.6e}")
-            if p < 0.05:
-                st.success("Existen diferencias significativas de hemo entre ckd y notckd.")
-            else:
-                st.info("No se encontraron diferencias significativas de hemo entre ckd y notckd.")
+# =====================================================
+# MODELO CLASIFICACIÓN
+# =====================================================
 
 else:
-    st.write("### Base de regresión")
 
-    # Chi-cuadrado: smoker vs sex
-    if all(col in df_imputado.columns for col in ["smoker", "sex"]):
-        tabla = pd.crosstab(df_imputado["smoker"], df_imputado["sex"])
-        chi2, p, dof, expected = chi2_contingency(tabla)
+    st.header("🩺 Predicción Enfermedad Renal")
 
-        st.write("**Chi-cuadrado: smoker vs sex**")
-        st.dataframe(tabla)
-        st.write(f"Chi-cuadrado: {chi2:.4f}")
-        st.write(f"p-valor: {p:.6e}")
-        if p < 0.05:
-            st.success("Existe asociación significativa entre smoker y sex.")
-        else:
-            st.info("No se encontró asociación significativa entre smoker y sex.")
+    age = st.slider(
+        "Edad",
+        1,
+        100,
+        40
+    )
 
-    # Pearson: age vs charges
-    if all(col in df_imputado.columns for col in ["age", "charges"]):
-        subset = df_imputado[["age", "charges"]].dropna()
-        r, p = pearsonr(subset["age"], subset["charges"])
+    bp = st.slider(
+        "Presión arterial",
+        50,
+        180,
+        80
+    )
 
-        st.write("**Pearson: age vs charges**")
-        st.write(f"Coeficiente de Pearson: {r:.4f}")
-        st.write(f"p-valor: {p:.6e}")
-        if p < 0.05:
-            st.success("Existe dependencia lineal significativa entre age y charges.")
-        else:
-            st.info("No se encontró dependencia lineal significativa entre age y charges.")
+    sg = st.number_input(
+        "Gravedad específica",
+        value=1.02
+    )
 
-    # Kruskal-Wallis: charges según smoker
-    if all(col in df_imputado.columns for col in ["charges", "smoker"]):
-        grupo_no = df_imputado[df_imputado["smoker"] == "no"]["charges"].dropna()
-        grupo_yes = df_imputado[df_imputado["smoker"] == "yes"]["charges"].dropna()
+    al = st.slider(
+        "Albumina",
+        0,
+        5,
+        0
+    )
 
-        if len(grupo_no) > 0 and len(grupo_yes) > 0:
-            stat, p = kruskal(grupo_no, grupo_yes)
+    su = st.slider(
+        "Azúcar",
+        0,
+        5,
+        0
+    )
 
-            st.write("**Kruskal-Wallis: charges según smoker**")
-            st.write(f"Estadístico: {stat:.4f}")
-            st.write(f"p-valor: {p:.6e}")
-            if p < 0.05:
-                st.success("Existen diferencias significativas de charges entre fumadores y no fumadores.")
-            else:
-                st.info("No se encontraron diferencias significativas de charges entre fumadores y no fumadores.")
+    datos = pd.DataFrame({
+        "age": [age],
+        "bp": [bp],
+        "sg": [sg],
+        "al": [al],
+        "su": [su]
+    })
+
+    # =================================================
+    # PREDICCIÓN
+    # =================================================
+
+    if st.button("Predict"):
+
+        try:
+
+            clase = modelo_clasificacion.predict(datos)
+
+            st.success(
+                f"🧪 Clase predicha: {clase[0]}"
+            )
+
+            if hasattr(modelo_clasificacion, "predict_proba"):
+
+                probabilidad = modelo_clasificacion.predict_proba(datos)
+
+                st.info(
+                    f"📊 Probabilidad máxima: {np.max(probabilidad):.2f}"
+                )
+
+        except Exception as e:
+
+            st.error(f"Error: {e}")
