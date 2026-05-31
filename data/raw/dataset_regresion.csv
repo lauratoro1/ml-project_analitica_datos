@@ -1,1339 +1,1339 @@
-age;sex;bmi;children;smoker;region; charges ;;
-19;female;27.9;0;yes;southwest; 16.885 ;; 17 
-18;male;33.77;1;no;southeast; 17.256 ;; 17 
-28;male;33;3;no;southeast; 4.449 ;; 4 
-33;male;22.705;0;no;northwest; 2.198.447 ;; 2.198 
-32;male;28.88;0;no;northwest; 38.669 ;; 39 
-31;female;25.74;0;no;southeast; 37.566 ;; 38 
-46;female;33.44;1;no;southeast; 82.406 ;; 82 
-37;female;27.74;3;no;northwest; 72.815 ;; 73 
-37;male;29.83;2;no;northeast; 64.064 ;; 64 
-60;female;25.84;0;no;northwest; 2.892.314 ;; 2.892 
-25;male;26.22;0;no;northeast; 27.213 ;; 27 
-62;female;26.29;0;yes;southeast; 278.087 ;; 278 
-23;male;34.4;0;no;southwest; 1.827 ;; 2 
-56;female;39.82;0;no;southeast; 110.907 ;; 111 
-27;male;42.13;0;yes;southeast; 396.118 ;; 396 
-19;male;24.6;1;no;southwest; 1.837 ;; 2 
-52;female;30.78;1;no;northeast; 107.973 ;; 108 
-23;male;23.845;0;no;northeast; 239.517 ;; 240 
-56;male;40.3;0;no;southwest; 10.602 ;; 11 
-30;male;35.3;0;yes;southwest; 36.837 ;; 37 
-60;female;36.005;0;no;northeast; 1.322.885 ;; 1.323 
-30;female;32.4;1;no;southwest; 4.150 ;; 4 
-18;male;34.1;0;no;southeast; 1.137 ;; 1 
-34;female;31.92;1;yes;northeast; 377.019 ;; 377 
-37;male;28.025;2;no;northwest; 620.390 ;; 620 
-59;female;27.72;3;no;southeast; 140.011 ;; 140 
-63;female;23.085;0;no;northeast; 1.445.184 ;; 1.445 
-55;female;32.775;2;no;northwest; 1.226.863 ;; 1.227 
-23;male;17.385;1;no;northwest; 277.519 ;; 278 
-31;male;36.3;2;yes;southwest; 39 ;; 0 
-22;male;35.6;0;yes;southwest; 35.586 ;; 36 
-18;female;26.315;0;no;northeast; 219.819 ;; 220 
-19;female;28.6;5;no;southwest; 4.688 ;; 5 
-63;male;28.31;0;no;northwest; 137.701 ;; 138 
-28;male;36.4;1;yes;southwest; 5.119.456 ;; 5.119 
-19;male;20.425;0;no;northwest; 162.543 ;; 163 
-62;female;32.965;3;no;northwest; 1.561.219 ;; 1.561 
-26;male;20.8;0;no;southwest;#¡VALOR!;;#¡VALOR!
-35;male;36.67;1;yes;northeast; 397.743 ;; 398 
-60;male;39.9;0;yes;southwest; 48.173 ;; 48 
-24;female;26.6;0;no;northeast; 3.046 ;; 3 
-31;female;36.63;2;no;southeast; 49.498 ;; 49 
-41;male;21.78;1;no;southeast; 62.725 ;; 63 
-37;female;30.8;2;no;southeast; 6.314 ;; 6 
-38;male;37.05;1;no;northeast; 60.797 ;; 61 
-55;male;37.3;0;no;southwest; 2.063.028 ;; 2.063 
-18;female;38.665;2;no;northeast; 339.336 ;; 339 
-28;female;34.77;0;no;northwest; 35.569 ;; 36 
-60;female;24.53;0;no;southeast; 126.299 ;; 126 
-36;male;35.2;1;yes;southeast; 38.709 ;; 39 
-18;female;35.625;0;no;northeast; 221.113 ;; 221 
-21;female;33.63;2;no;northwest; 35.798 ;; 36 
-48;male;28;1;yes;southwest; 23.568 ;; 24 
-36;male;34.43;0;yes;southeast; 377.426 ;; 377 
-40;female;28.69;3;no;northwest; 80.597 ;; 81 
-58;male;36.955;2;yes;northwest; 4.749.649 ;; 4.750 
-58;female;31.825;2;no;northeast; 1.360.737 ;; 1.361 
-18;male;31.68;2;yes;southeast; 343.032 ;; 343 
-53;female;22.88;1;yes;southeast; 232.448 ;; 232 
-34;female;37.335;2;no;northwest; 598.952 ;; 599 
-43;male;27.36;3;no;northeast; 86.062 ;; 86 
-25;male;33.66;4;no;southeast; 45.047 ;; 45 
-64;male;24.7;1;no;northwest; 3.016.662 ;; 3.017 
-28;female;25.935;1;no;northwest; 413.364 ;; 413 
-20;female;22.42;0;yes;northwest; 147.117 ;; 147 
-19;female;28.9;0;no;southwest; 1.743 ;; 2 
-61;female;39.1;2;no;southwest; 14.235 ;; 14 
-40;male;26.315;1;no;northwest; 638.938 ;; 639 
-40;female;36.19;0;no;southeast; 59.201 ;; 59 
-28;male;23.98;3;yes;southeast; 176.631 ;; 177 
-27;female;24.75;0;yes;southeast; 165.778 ;; 166 
-31;male;28.5;5;no;northeast; 6.799 ;; 7 
-53;female;28.1;3;no;southwest; 11.742 ;; 12 
-58;male;32.01;1;no;southeast; 119.466 ;; 119 
-44;male;27.4;2;no;southwest; 7.727 ;; 8 
-57;male;34.01;0;no;northwest; 113.567 ;; 114 
-29;female;29.59;1;no;southeast; 39.474 ;; 39 
-21;male;35.53;0;no;southeast; 15.325 ;; 15 
-22;female;39.805;0;no;northeast; 275.502 ;; 276 
-41;female;32.965;0;no;northwest; 657.102 ;; 657 
-31;male;26.885;1;no;northeast; 444.121 ;; 444 
-45;female;38.285;0;no;northeast; 793.529 ;; 794 
-22;male;37.62;1;yes;southeast; 371.652 ;; 372 
-48;female;41.23;4;no;northwest; 110.337 ;; 110 
-37;female;34.8;2;yes;southwest; 39.837 ;; 40 
-45;male;22.895;2;yes;northwest; 2.109.855 ;; 2.110 
-57;female;31.16;0;yes;northwest; 435.789 ;; 436 
-56;female;27.2;0;no;southwest; 11.073 ;; 11 
-46;female;27.74;0;no;northwest; 80.267 ;; 80 
-55;female;26.98;0;no;northwest; 110.826 ;; 111 
-21;female;39.49;0;no;southeast; 20.270 ;; 20 
-53;female;24.795;1;no;northwest; 1.094.213 ;; 1.094 
-59;male;29.83;3;yes;northeast; 301.849 ;; 302 
-35;male;34.77;2;no;northwest; 57.290 ;; 57 
-64;female;31.3;2;yes;southwest; 47.291 ;; 47 
-28;female;37.62;1;no;southeast; 37.669 ;; 38 
-54;female;30.8;3;no;southwest;#¡VALOR!;;#¡VALOR!
-55;male;38.28;0;no;southeast; 102.263 ;; 102 
-56;male;19.95;0;yes;northeast; 224.126 ;; 224 
-38;male;19.3;0;yes;southwest; 15.821 ;; 16 
-41;female;31.6;0;no;southwest; 6.186 ;; 6 
-30;male;25.46;0;no;northeast; 36.451 ;; 36 
-18;female;30.115;0;no;northeast; 213.448 ;; 213 
-61;female;29.92;3;yes;southeast; 309.422 ;; 309 
-34;female;27.5;1;no;southwest; 5.004 ;; 5 
-20;male;28.025;1;yes;northwest; 1.756.038 ;; 1.756 
-19;female;28.4;1;no;southwest; 2.332 ;; 2 
-26;male;30.875;2;no;northwest; 387.730 ;; 388 
-29;male;27.94;0;no;southeast; 28.671 ;; 29 
-63;male;35.09;0;yes;southeast; 470.555 ;; 471 
-54;male;33.63;1;no;northwest; 108.253 ;; 108 
-55;female;29.7;2;no;southwest; 11.881 ;; 12 
-37;male;30.8;0;no;southwest; 4.647 ;; 5 
-21;female;35.72;0;no;northwest; 24.047 ;; 24 
-52;male;32.205;3;no;northeast; 1.148.832 ;; 1.149 
-60;male;28.595;0;no;northeast; 3.026.000 ;; 3.026 
-58;male;49.06;0;no;southeast; 113.813 ;; 114 
-29;female;27.94;1;yes;southeast; 191.078 ;; 191 
-49;female;27.17;0;no;southeast; 86.013 ;; 86 
-37;female;23.37;2;no;northwest; 66.864 ;; 67 
-44;male;37.1;2;no;southwest; 7.740 ;; 8 
-18;male;23.75;0;no;northeast; 17.056 ;; 17 
-20;female;28.975;0;no;northwest; 225.748 ;; 226 
-44;male;31.35;1;yes;northeast; 395.565 ;; 396 
-47;female;33.915;3;no;northwest; 1.011.501 ;; 1.012 
-26;female;28.785;0;no;northeast; 338.540 ;; 339 
-19;female;28.3;0;yes;southwest;#¡VALOR!;;#¡VALOR!
-52;female;37.4;0;no;southwest; 9.635 ;; 10 
-32;female;17.765;2;yes;northwest; 327.342 ;; 327 
-38;male;34.7;2;no;southwest; 6.082 ;; 6 
-59;female;26.505;0;no;northeast; 1.281.544 ;; 1.282 
-61;female;22.04;0;no;northeast; 136.164 ;; 136 
-53;female;35.9;2;no;southwest; 11.164 ;; 11 
-19;male;25.555;0;no;northwest; 163.256 ;; 163 
-20;female;28.785;0;no;northeast; 245.721 ;; 246 
-22;female;28.05;0;no;southeast; 21.557 ;; 22 
-19;male;34.1;0;no;southwest; 1.261 ;; 1 
-22;male;25.175;0;no;northwest; 204.569 ;; 205 
-54;female;31.9;3;no;southeast; 2.732.273 ;; 2.732 
-22;female;36;0;no;southwest; 2.167 ;; 2 
-34;male;22.42;2;no;northeast; 2.737.590 ;; 2.738 
-26;male;32.49;1;no;northeast; 34.905 ;; 35 
-34;male;25.3;2;yes;southeast; 18.972 ;; 19 
-29;male;29.735;2;no;northwest; 18.158 ;; 18 
-30;male;28.69;3;yes;northwest; 207.460 ;; 207 
-29;female;38.83;3;no;southeast; 51.383 ;; 51 
-46;male;30.495;3;yes;northwest; 4.072.055 ;; 4.072 
-51;female;37.73;1;no;southeast; 98.776 ;; 99 
-53;female;37.43;1;no;northwest; 109.597 ;; 110 
-19;male;28.4;1;no;southwest; 1.843 ;; 2 
-35;male;24.13;1;no;northwest; 51.252 ;; 51 
-48;male;29.7;0;no;southeast; 7.790 ;; 8 
-32;female;37.145;3;no;northeast; 633.434 ;; 633 
-42;female;23.37;0;yes;northeast; 199.647 ;; 200 
-40;female;25.46;1;no;northeast; 70.772 ;; 71 
-44;male;39.52;0;no;northwest; 69.487 ;; 69 
-48;male;24.42;0;yes;southeast; 212.237 ;; 212 
-18;male;25.175;0;yes;northeast; 1.551.818 ;; 1.552 
-30;male;35.53;0;yes;southeast; 369.503 ;; 370 
-50;female;27.83;3;no;southeast; 1.974.938 ;; 1.975 
-42;female;26.6;0;yes;northwest; 21.349 ;; 21 
-18;female;36.85;0;yes;southeast; 361.495 ;; 361 
-54;male;39.6;1;no;southwest; 10.451 ;; 10 
-32;female;29.8;2;no;southwest; 5.152 ;; 5 
-37;male;29.64;0;no;northwest; 50.281 ;; 50 
-47;male;28.215;4;no;northeast; 1.040.709 ;; 1.041 
-20;female;37;5;no;southwest;#¡VALOR!;;#¡VALOR!
-32;female;33.155;3;no;northwest; 612.880 ;; 613 
-19;female;31.825;1;no;northwest; 271.928 ;; 272 
-27;male;18.905;3;no;northeast; 482.790 ;; 483 
-63;male;41.47;0;no;southeast; 134.054 ;; 134 
-49;male;30.3;0;no;southwest;#¡VALOR!;;#¡VALOR!
-18;male;15.96;0;no;northeast; 16.948 ;; 17 
-35;female;34.8;1;no;southwest; 5.246 ;; 5 
-24;female;33.345;0;no;northwest; 285.544 ;; 286 
-63;female;37.7;0;yes;southwest;#¡VALOR!;;#¡VALOR!
-38;male;27.835;2;no;northwest; 645.586 ;; 646 
-54;male;29.2;1;no;southwest; 10.436 ;; 10 
-46;female;28.9;2;no;southwest; 8.823 ;; 9 
-41;female;33.155;3;no;northeast; 853.829 ;; 854 
-58;male;28.595;0;no;northwest; 1.173.588 ;; 1.174 
-18;female;38.28;0;no;southeast; 16.318 ;; 16 
-22;male;19.95;3;no;northeast; 40.054 ;; 40 
-44;female;26.41;0;no;northwest; 74.195 ;; 74 
-44;male;30.69;2;no;southeast; 77.314 ;; 77 
-36;male;41.895;3;yes;northeast; 4.375.334 ;; 4.375 
-26;female;29.92;2;no;southeast; 39.820 ;; 40 
-30;female;30.9;3;no;southwest; 5.326 ;; 5 
-41;female;32.2;1;no;southwest; 6.776 ;; 7 
-29;female;32.11;2;no;northwest; 49.229 ;; 49 
-61;male;31.57;0;no;southeast; 125.576 ;; 126 
-36;female;26.2;0;no;southwest; 4.884 ;; 5 
-25;male;25.74;0;no;southeast; 21.377 ;; 21 
-56;female;26.6;1;no;northwest; 12.044 ;; 12 
-18;male;34.43;0;no;southeast; 11.375 ;; 11 
-19;male;30.59;0;no;northwest; 16.396 ;; 16 
-39;female;32.8;0;no;southwest; 5.650 ;; 6 
-45;female;28.6;2;no;southeast; 8.517 ;; 9 
-51;female;18.05;0;no;northwest; 96.443 ;; 96 
-64;female;39.33;0;no;northeast; 149.015 ;; 149 
-19;female;32.11;0;no;northwest; 21.307 ;; 21 
-48;female;32.23;1;no;southeast; 88.712 ;; 89 
-60;female;24.035;0;no;northwest; 1.301.221 ;; 1.301 
-27;female;36.08;0;yes;southeast; 371.339 ;; 371 
-46;male;22.3;0;no;southwest; 7.147 ;; 7 
-28;female;28.88;1;no;northeast; 43.377 ;; 43 
-59;male;26.4;0;no;southeast; 11.743 ;; 12 
-35;male;27.74;2;yes;northeast; 209.841 ;; 210 
-63;female;31.8;0;no;southwest; 13.881 ;; 14 
-40;male;41.23;1;no;northeast; 66.101 ;; 66 
-20;male;33;1;no;southwest;#¡VALOR!;;#¡VALOR!
-40;male;30.875;4;no;northwest; 816.272 ;; 816 
-24;male;28.5;2;no;northwest; 3.538 ;; 4 
-34;female;26.73;1;no;southeast; 50.028 ;; 50 
-45;female;30.9;2;no;southwest; 8.520 ;; 9 
-41;female;37.1;2;no;southwest; 7.372 ;; 7 
-53;female;26.6;0;no;northwest; 10.356 ;; 10 
-27;male;23.1;0;no;southeast; 2.484 ;; 2 
-26;female;29.92;1;no;southeast; 33.930 ;; 34 
-24;female;23.21;0;no;southeast; 2.508.177 ;; 2.508 
-34;female;33.7;1;no;southwest; 5.012 ;; 5 
-53;female;33.25;0;no;northeast; 105.649 ;; 106 
-32;male;30.8;3;no;southwest; 5.254 ;; 5 
-19;male;34.8;0;yes;southwest; 34.780 ;; 35 
-42;male;24.64;0;yes;southeast; 195.155 ;; 195 
-55;male;33.88;3;no;southeast; 119.872 ;; 120 
-28;male;38.06;0;no;southeast; 26.895 ;; 27 
-58;female;41.91;0;no;southeast; 2.422.734 ;; 2.423 
-41;female;31.635;1;no;northeast; 735.818 ;; 736 
-47;male;25.46;2;no;northeast; 92.253 ;; 92 
-42;female;36.195;1;no;northwest; 744.364 ;; 744 
-59;female;27.83;3;no;southeast; 140.013 ;; 140 
-19;female;17.8;0;no;southwest; 1.728 ;; 2 
-59;male;27.5;1;no;southwest; 12.334 ;; 12 
-39;male;24.51;2;no;northwest; 67.102 ;; 67 
-40;female;22.22;2;yes;southeast; 194.443 ;; 194 
-18;female;26.73;0;no;southeast; 16.158 ;; 16 
-31;male;38.39;2;no;southeast; 44.632 ;; 45 
-19;male;29.07;0;yes;northwest; 173.527 ;; 174 
-44;male;38.06;1;no;southeast; 71.527 ;; 72 
-23;female;36.67;2;yes;northeast; 385.116 ;; 385 
-33;female;22.135;1;no;northeast; 535.407 ;; 535 
-55;female;26.8;1;no;southwest; 3.516.013 ;; 3.516 
-40;male;35.3;3;no;southwest; 7.197 ;; 7 
-63;female;27.74;0;yes;northeast; 295.232 ;; 295 
-54;male;30.02;0;no;northwest; 2.447.648 ;; 2.448 
-60;female;38.06;0;no;southeast; 126.487 ;; 126 
-24;male;35.86;0;no;southeast; 19.869 ;; 20 
-19;male;20.9;1;no;southwest; 1.832 ;; 2 
-29;male;28.975;1;no;northeast; 404.056 ;; 404 
-18;male;17.29;2;yes;northeast; 128.295 ;; 128 
-63;female;32.2;2;yes;southwest; 47.305 ;; 47 
-54;male;34.21;2;yes;southeast; 442.607 ;; 443 
-27;male;30.3;3;no;southwest; 4.261 ;; 4 
-50;male;31.825;0;yes;northeast; 4.109.716 ;; 4.110 
-55;female;25.365;3;no;northeast; 1.304.733 ;; 1.305 
-56;male;33.63;0;yes;northwest; 439.212 ;; 439 
-38;female;40.15;0;no;southeast; 54.010 ;; 54 
-51;male;24.415;4;no;northwest; 1.152.010 ;; 1.152 
-19;male;31.92;0;yes;northwest; 337.503 ;; 338 
-58;female;25.2;0;no;southwest;#¡VALOR!;;#¡VALOR!
-20;female;26.84;1;yes;southeast; 170.853 ;; 171 
-52;male;24.32;3;yes;northeast; 248.698 ;; 249 
-19;male;36.955;0;yes;northwest; 3.621.941 ;; 3.622 
-53;female;38.06;3;no;southeast; 2.046.300 ;; 2.046 
-46;male;42.35;3;yes;southeast; 461.511 ;; 462 
-40;male;19.8;1;yes;southeast; 17.180 ;; 17 
-59;female;32.395;3;no;northeast; 1.459.063 ;; 1.459 
-45;male;30.2;1;no;southwest; 7.441 ;; 7 
-49;male;25.84;1;no;northeast; 92.825 ;; 93 
-18;male;29.37;1;no;southeast; 17.194 ;; 17 
-50;male;34.2;2;yes;southwest; 42.857 ;; 43 
-41;male;37.05;2;no;northwest; 72.657 ;; 73 
-50;male;27.455;1;no;northeast; 961.766 ;; 962 
-25;male;27.55;0;no;northwest; 25.232 ;; 25 
-47;female;26.6;2;no;northeast; 9.716 ;; 10 
-19;male;20.615;2;no;northwest; 280.370 ;; 280 
-22;female;24.3;0;no;southwest; 2.150 ;; 2 
-59;male;31.79;2;no;southeast; 129.288 ;; 129 
-51;female;21.56;1;no;southeast; 98.551 ;; 99 
-40;female;28.12;1;yes;northeast; 223.316 ;; 223 
-54;male;40.565;3;yes;northeast; 4.854.918 ;; 4.855 
-30;male;27.645;1;no;northeast; 423.713 ;; 424 
-55;female;32.395;1;no;northeast; 1.187.910 ;; 1.188 
-52;female;31.2;0;no;southwest;#¡VALOR!;;#¡VALOR!
-46;male;26.62;1;no;southeast; 77.421 ;; 77 
-46;female;48.07;2;no;northeast; 94.329 ;; 94 
-63;female;26.22;0;no;northwest; 142.562 ;; 143 
-59;female;36.765;1;yes;northeast; 4.789.679 ;; 4.790 
-52;male;26.4;3;no;southeast; 2.599.282 ;; 2.599 
-28;female;33.4;0;no;southwest; 3.172 ;; 3 
-29;male;29.64;1;no;northeast; 2.027.781 ;; 2.028 
-25;male;45.54;2;yes;southeast; 421.122 ;; 421 
-22;female;28.82;0;no;southeast; 21.568 ;; 22 
-25;male;26.8;3;no;southwest; 3.906 ;; 4 
-18;male;22.99;0;no;northeast; 17.046 ;; 17 
-19;male;27.7;0;yes;southwest; 16.298 ;; 16 
-47;male;25.41;1;yes;southeast; 219.787 ;; 220 
-31;male;34.39;3;yes;northwest; 387.464 ;; 387 
-48;female;28.88;1;no;northwest; 92.495 ;; 92 
-36;male;27.55;3;no;northeast; 67.467 ;; 67 
-53;female;22.61;3;yes;northeast; 248.734 ;; 249 
-56;female;37.51;2;no;southeast; 122.655 ;; 123 
-28;female;33;2;no;southeast; 4.349 ;; 4 
-57;female;38;2;no;southwest; 12.646 ;; 13 
-29;male;33.345;2;no;northwest; 194.424 ;; 194 
-28;female;27.5;2;no;southwest; 2.017.767 ;; 2.018 
-30;female;33.33;1;no;southeast; 41.510 ;; 42 
-58;male;34.865;0;no;northeast; 1.194.459 ;; 1.194 
-41;female;33.06;2;no;northwest; 77.492 ;; 77 
-50;male;26.6;0;no;southwest; 8.444 ;; 8 
-19;female;24.7;0;no;southwest; 1.737 ;; 2 
-43;male;35.97;3;yes;southeast; 421.245 ;; 421 
-49;male;35.86;0;no;southeast; 81.244 ;; 81 
-27;female;31.4;0;yes;southwest; 34.839 ;; 35 
-52;male;33.25;0;no;northeast; 97.228 ;; 97 
-50;male;32.205;0;no;northwest; 883.526 ;; 884 
-54;male;32.775;0;no;northeast; 1.043.507 ;; 1.044 
-44;female;27.645;0;no;northwest; 742.119 ;; 742 
-32;male;37.335;1;no;northeast; 466.761 ;; 467 
-34;male;25.27;1;no;northwest; 48.948 ;; 49 
-26;female;29.64;4;no;northeast; 2.467.166 ;; 2.467 
-34;male;30.8;0;yes;southwest;#¡VALOR!;;#¡VALOR!
-57;male;40.945;0;no;northeast; 1.156.630 ;; 1.157 
-29;male;27.2;0;no;southwest; 2.866 ;; 3 
-40;male;34.105;1;no;northeast; 660.021 ;; 660 
-27;female;23.21;1;no;southeast; 35.619 ;; 36 
-45;male;36.48;2;yes;northwest; 427.605 ;; 428 
-64;female;33.8;1;yes;southwest;#¡VALOR!;;#¡VALOR!
-52;male;36.7;0;no;southwest; 9.145 ;; 9 
-61;female;36.385;1;yes;northeast; 4.851.756 ;; 4.852 
-52;male;27.36;0;yes;northwest; 243.936 ;; 244 
-61;female;31.16;0;no;northwest; 134.290 ;; 134 
-56;female;28.785;0;no;northeast; 1.165.838 ;; 1.166 
-43;female;35.72;2;no;northeast; 1.914.458 ;; 1.914 
-64;male;34.5;0;no;southwest; 13.823 ;; 14 
-60;male;25.74;0;no;southeast; 121.426 ;; 121 
-62;male;27.55;1;no;northwest; 139.377 ;; 139 
-50;male;32.3;1;yes;northeast; 41.919 ;; 42 
-46;female;27.72;1;no;southeast; 82.326 ;; 82 
-24;female;27.6;0;no;southwest; 1.895.522 ;; 1.896 
-62;male;30.02;0;no;northwest; 133.521 ;; 134 
-60;female;27.55;0;no;northeast; 132.171 ;; 132 
-63;male;36.765;0;no;northeast; 1.398.185 ;; 1.398 
-49;female;41.47;4;no;southeast; 109.772 ;; 110 
-34;female;29.26;3;no;southeast; 61.843 ;; 62 
-33;male;35.75;2;no;southeast; 48.900 ;; 49 
-46;male;33.345;1;no;northeast; 833.446 ;; 833 
-36;female;29.92;1;no;southeast; 54.780 ;; 55 
-19;male;27.835;0;no;northwest; 163.573 ;; 164 
-57;female;23.18;0;no;northwest; 118.306 ;; 118 
-50;female;25.6;0;no;southwest; 8.932 ;; 9 
-30;female;27.7;0;no;southwest; 3.554 ;; 4 
-33;male;35.245;0;no;northeast; 124.049 ;; 124 
-18;female;38.28;0;no;southeast; 1.413.304 ;; 1.413 
-46;male;27.6;0;no;southwest; 2.460.305 ;; 2.460 
-46;male;43.89;3;no;southeast; 89.441 ;; 89 
-47;male;29.83;3;no;northwest; 96.203 ;; 96 
-23;male;41.91;0;no;southeast; 18.373 ;; 18 
-18;female;20.79;0;no;southeast; 16.075 ;; 16 
-48;female;32.3;2;no;northeast; 10.043 ;; 10 
-35;male;30.5;1;no;southwest;#¡VALOR!;;#¡VALOR!
-19;female;21.7;0;yes;southwest; 13.845 ;; 14 
-21;female;26.4;1;no;southwest; 2.598 ;; 3 
-21;female;21.89;2;no;southeast; 31.805 ;; 32 
-49;female;30.78;1;no;northeast; 97.783 ;; 98 
-56;female;32.3;3;no;northeast; 13.430 ;; 13 
-42;female;24.985;2;no;northwest; 801.706 ;; 802 
-44;male;32.015;2;no;northwest; 811.627 ;; 812 
-18;male;30.4;3;no;northeast; 3.482 ;; 3 
-61;female;21.09;0;no;northwest; 134.150 ;; 134 
-57;female;22.23;0;no;northeast; 120.293 ;; 120 
-42;female;33.155;1;no;northeast; 763.942 ;; 764 
-26;male;32.9;2;yes;southwest; 36.085 ;; 36 
-20;male;33.33;0;no;southeast; 13.915 ;; 14 
-23;female;28.31;0;yes;northwest; 180.340 ;; 180 
-39;female;24.89;3;yes;northeast; 216.599 ;; 217 
-24;male;40.15;0;yes;southeast; 381.262 ;; 381 
-64;female;30.115;3;no;northwest; 1.645.571 ;; 1.646 
-62;male;31.46;1;no;southeast; 2.700.098 ;; 2.700 
-27;female;17.955;2;yes;northeast; 1.500.658 ;; 1.501 
-55;male;30.685;0;yes;northeast; 4.230.369 ;; 4.230 
-55;male;33;0;no;southeast; 2.078.149 ;; 2.078 
-35;female;43.34;2;no;southeast; 58.469 ;; 58 
-44;male;22.135;2;no;northeast; 830.254 ;; 830 
-19;male;34.4;0;no;southwest; 1.262 ;; 1 
-58;female;39.05;0;no;southeast; 118.564 ;; 119 
-50;male;25.365;2;no;northwest; 3.028.464 ;; 3.028 
-26;female;22.61;0;no;northwest; 31.768 ;; 32 
-24;female;30.21;3;no;northwest; 46.181 ;; 46 
-48;male;35.625;4;no;northeast; 1.073.687 ;; 1.074 
-19;female;37.43;0;no;northwest; 21.381 ;; 21 
-48;male;31.445;1;no;northeast; 896.406 ;; 896 
-49;male;31.35;1;no;northeast; 92.901 ;; 93 
-46;female;32.3;2;no;northeast; 9.411 ;; 9 
-46;male;19.855;0;no;northwest; 752.671 ;; 753 
-43;female;34.4;3;no;southwest; 8.522 ;; 9 
-21;male;31.02;0;no;southeast; 1.658.650 ;; 1.659 
-64;male;25.6;2;no;southwest; 14.988 ;; 15 
-18;female;38.17;0;no;southeast; 16.317 ;; 16 
-51;female;20.6;0;no;southwest; 9.265 ;; 9 
-47;male;47.52;1;no;southeast; 80.839 ;; 81 
-64;female;32.965;0;no;northwest; 1.469.267 ;; 1.469 
-49;male;32.3;3;no;northwest;#¡VALOR!;;#¡VALOR!
-31;male;20.4;0;no;southwest; 3.260 ;; 3 
-52;female;38.38;2;no;northeast; 113.969 ;; 114 
-33;female;24.31;0;no;southeast; 41.851 ;; 42 
-47;female;23.6;1;no;southwest; 8.540 ;; 9 
-38;male;21.12;3;no;southeast; 66.525 ;; 67 
-32;male;30.03;1;no;southeast; 40.745 ;; 41 
-19;male;17.48;0;no;northwest; 16.213 ;; 16 
-44;female;20.235;1;yes;northeast; 1.959.481 ;; 1.959 
-26;female;17.195;2;yes;northeast; 1.445.564 ;; 1.446 
-25;male;23.9;5;no;southwest; 5.080 ;; 5 
-19;female;35.15;0;no;northwest; 21.349 ;; 21 
-43;female;35.64;1;no;southeast; 73.457 ;; 73 
-52;male;34.1;0;no;southeast; 9.141 ;; 9 
-36;female;22.6;2;yes;southwest; 18.608 ;; 19 
-64;male;39.16;1;no;southeast; 144.183 ;; 144 
-63;female;26.98;0;yes;northwest; 289.505 ;; 290 
-64;male;33.88;0;yes;southeast; 468.893 ;; 469 
-61;male;35.86;0;yes;southeast; 465.991 ;; 466 
-40;male;32.775;1;yes;northeast; 3.912.533 ;; 3.913 
-25;male;30.59;0;no;northeast; 27.274 ;; 27 
-48;male;30.2;2;no;southwest;#¡VALOR!;;#¡VALOR!
-45;male;24.31;5;no;southeast; 97.889 ;; 98 
-38;female;27.265;1;no;northeast; 655.507 ;; 656 
-18;female;29.165;0;no;northeast; 7.323.735 ;; 7.324 
-21;female;16.815;1;no;northeast; 316.746 ;; 317 
-27;female;30.4;3;no;northwest; 188.048 ;; 188 
-19;male;33.1;0;no;southwest; 2.308.296 ;; 2.308 
-29;female;20.235;2;no;northwest; 490.641 ;; 491 
-42;male;26.9;0;no;southwest; 5.970 ;; 6 
-60;female;30.5;0;no;southwest; 12.638 ;; 13 
-31;male;28.595;1;no;northwest; 424.359 ;; 424 
-60;male;33.11;3;no;southeast; 139.198 ;; 139 
-22;male;31.73;0;no;northeast; 22.548 ;; 23 
-35;male;28.9;3;no;southwest; 5.927 ;; 6 
-52;female;46.75;5;no;southeast; 125.925 ;; 126 
-26;male;29.45;0;no;northeast; 28.973 ;; 29 
-31;female;32.68;1;no;northwest; 47.383 ;; 47 
-33;female;33.5;0;yes;southwest; 37.079 ;; 37 
-18;male;43.01;0;no;southeast; 11.494 ;; 11 
-59;female;36.52;1;no;southeast; 2.828.790 ;; 2.829 
-56;male;26.695;1;yes;northwest; 2.610.933 ;; 2.611 
-45;female;33.1;0;no;southwest; 7.345 ;; 7 
-60;male;29.64;0;no;northeast; 127.310 ;; 127 
-56;female;25.65;0;no;northwest; 114.540 ;; 115 
-40;female;29.6;0;no;southwest; 5.911 ;; 6 
-35;male;38.6;1;no;southwest; 4.762 ;; 5 
-39;male;29.6;4;no;southwest; 7.512 ;; 8 
-30;male;24.13;1;no;northwest; 40.322 ;; 40 
-24;male;23.4;0;no;southwest; 1.970 ;; 2 
-20;male;29.735;0;no;northwest; 176.953 ;; 177 
-32;male;46.53;2;no;southeast; 46.864 ;; 47 
-59;male;37.4;0;no;southwest; 217.970 ;; 218 
-55;female;30.14;2;no;southeast; 118.820 ;; 119 
-57;female;30.495;0;no;northwest; 1.184.078 ;; 1.184 
-56;male;39.6;0;no;southwest; 10.601 ;; 11 
-40;female;33;3;no;southeast;#¡VALOR!;;#¡VALOR!
-49;female;36.63;3;no;southeast; 103.815 ;; 104 
-42;male;30;0;yes;southwest; 22.144 ;; 22 
-62;female;38.095;2;no;northeast; 1.523.032 ;; 1.523 
-56;male;25.935;0;no;northeast; 1.116.542 ;; 1.117 
-19;male;25.175;0;no;northwest; 163.204 ;; 163 
-30;female;28.38;1;yes;southeast; 195.220 ;; 195 
-60;female;28.7;1;no;southwest; 13.225 ;; 13 
-56;female;33.82;2;no;northwest; 126.434 ;; 126 
-28;female;24.32;1;no;northeast; 232.889 ;; 233 
-18;female;24.09;1;no;southeast; 22.011 ;; 22 
-27;male;32.67;0;no;southeast; 24.970 ;; 25 
-18;female;30.115;0;no;northeast; 220.347 ;; 220 
-19;female;29.8;0;no;southwest; 1.744 ;; 2 
-47;female;33.345;0;no;northeast; 2.087.878 ;; 2.088 
-54;male;25.1;3;yes;southwest; 25.382 ;; 25 
-61;male;28.31;1;yes;northwest; 288.687 ;; 289 
-24;male;28.5;0;yes;northeast; 3.514.753 ;; 3.515 
-25;male;35.625;0;no;northwest; 253.439 ;; 253 
-21;male;36.85;0;no;southeast; 15.343 ;; 15 
-23;male;32.56;0;no;southeast; 18.243 ;; 18 
-63;male;41.325;3;no;northwest; 1.555.519 ;; 1.556 
-49;male;37.51;2;no;southeast; 93.047 ;; 93 
-18;female;31.35;0;no;southeast; 16.222 ;; 16 
-51;female;39.5;1;no;southwest; 9.880 ;; 10 
-48;male;34.3;3;no;southwest; 9.563 ;; 10 
-31;female;31.065;0;no;northeast; 434.702 ;; 435 
-54;female;21.47;3;no;northwest; 124.754 ;; 125 
-19;male;28.7;0;no;southwest; 1.254 ;; 1 
-44;female;38.06;0;yes;southeast; 4.888.514 ;; 4.889 
-53;male;31.16;1;no;northwest; 104.620 ;; 105 
-19;female;32.9;0;no;southwest; 1.749 ;; 2 
-61;female;25.08;0;no;southeast; 2.451.309 ;; 2.451 
-18;female;25.08;0;no;northeast; 21.965 ;; 22 
-61;male;43.4;0;no;southwest; 12.574 ;; 13 
-21;male;25.7;4;yes;southwest; 17.942 ;; 18 
-20;male;27.93;0;no;northeast; 19.670 ;; 20 
-31;female;23.6;2;no;southwest; 4.932 ;; 5 
-45;male;28.7;2;no;southwest; 8.028 ;; 8 
-44;female;23.98;2;no;southeast; 82.111 ;; 82 
-62;female;39.2;0;no;southwest;#¡VALOR!;;#¡VALOR!
-29;male;34.4;0;yes;southwest; 36.198 ;; 36 
-43;male;26.03;0;no;northeast; 68.374 ;; 68 
-51;male;23.21;1;yes;southeast; 222.181 ;; 222 
-19;male;30.25;0;yes;southeast; 325.483 ;; 325 
-38;female;28.93;1;no;southeast; 59.744 ;; 60 
-37;male;30.875;3;no;northwest; 679.686 ;; 680 
-22;male;31.35;1;no;northwest; 26.433 ;; 26 
-21;male;23.75;2;no;northwest; 30.771 ;; 31 
-24;female;25.27;0;no;northeast; 30.442 ;; 30 
-57;female;28.7;0;no;southwest;#¡VALOR!;;#¡VALOR!
-56;male;32.11;1;no;northeast; 117.630 ;; 118 
-27;male;33.66;0;no;southeast; 24.984 ;; 25 
-51;male;22.42;0;no;northeast; 93.613 ;; 94 
-19;male;30.4;0;no;southwest; 1.256 ;; 1 
-39;male;28.3;1;yes;southwest;#¡VALOR!;;#¡VALOR!
-58;male;35.7;0;no;southwest; 11.363 ;; 11 
-20;male;35.31;1;no;southeast; 2.772.429 ;; 2.772 
-45;male;30.495;2;no;northwest; 841.346 ;; 841 
-35;female;31;1;no;southwest; 5.241 ;; 5 
-31;male;30.875;0;no;northeast; 385.776 ;; 386 
-50;female;27.36;0;no;northeast; 2.565.658 ;; 2.566 
-32;female;44.22;0;no;southeast; 39.942 ;; 40 
-51;female;33.915;0;no;northeast; 986.630 ;; 987 
-38;female;37.73;0;no;southeast; 53.976 ;; 54 
-42;male;26.07;1;yes;southeast; 3.824.559 ;; 3.825 
-18;female;33.88;0;no;southeast; 1.148.263 ;; 1.148 
-19;female;30.59;2;no;northwest; 2.405.968 ;; 2.406 
-51;female;25.8;1;no;southwest; 9.861 ;; 10 
-46;male;39.425;1;no;northeast; 834.291 ;; 834 
-18;male;25.46;0;no;northeast; 17.080 ;; 17 
-57;male;42.13;1;yes;southeast; 486.755 ;; 487 
-62;female;31.73;0;no;northeast; 140.435 ;; 140 
-59;male;29.7;2;no;southeast; 12.926 ;; 13 
-37;male;36.19;0;no;southeast; 1.921.471 ;; 1.921 
-64;male;40.48;0;no;southeast; 138.311 ;; 138 
-38;male;28.025;1;no;northeast; 606.713 ;; 607 
-33;female;38.9;3;no;southwest; 5.972 ;; 6 
-46;female;30.2;2;no;southwest; 8.825 ;; 9 
-46;female;28.05;1;no;southeast; 82.331 ;; 82 
-53;male;31.35;0;no;southeast; 2.734.604 ;; 2.735 
-34;female;38;3;no;southwest; 6.196 ;; 6 
-20;female;31.79;2;no;southeast; 30.564 ;; 31 
-63;female;36.3;0;no;southeast; 13.887 ;; 14 
-54;female;47.41;0;yes;southeast; 6.377.043 ;; 6.377 
-54;male;30.21;0;no;northwest; 102.315 ;; 102 
-49;male;25.84;2;yes;northwest; 238.072 ;; 238 
-28;male;35.435;0;no;northeast; 326.885 ;; 327 
-54;female;46.7;2;no;southwest; 11.538 ;; 12 
-25;female;28.595;0;no;northeast; 321.362 ;; 321 
-43;female;46.2;0;yes;southeast; 45.863 ;; 46 
-63;male;30.8;0;no;southwest; 13.391 ;; 13 
-32;female;28.93;0;no;southeast; 39.729 ;; 40 
-62;male;21.4;0;no;southwest; 12.957 ;; 13 
-52;female;31.73;2;no;northwest; 111.877 ;; 112 
-25;female;41.325;0;no;northeast; 1.787.890 ;; 1.788 
-28;male;23.8;2;no;southwest; 3.848 ;; 4 
-46;male;33.44;1;no;northeast; 83.346 ;; 83 
-34;male;34.21;0;no;southeast; 39.352 ;; 39 
-35;female;34.105;3;yes;northwest; 3.998.343 ;; 3.998 
-19;male;35.53;0;no;northwest; 16.464 ;; 16 
-46;female;19.95;2;no;northwest; 91.938 ;; 92 
-54;female;32.68;0;no;northeast; 109.239 ;; 109 
-27;male;30.5;0;no;southwest; 2.494 ;; 2 
-50;male;44.77;1;no;southeast; 90.587 ;; 91 
-18;female;32.12;2;no;southeast; 28.013 ;; 28 
-19;female;30.495;0;no;northwest; 212.843 ;; 213 
-38;female;40.565;1;no;northwest; 637.356 ;; 637 
-41;male;30.59;2;no;northwest; 72.567 ;; 73 
-49;female;31.9;5;no;southwest; 11.553 ;; 12 
-48;male;40.565;2;yes;northwest; 4.570.202 ;; 4.570 
-31;female;29.1;0;no;southwest; 3.761 ;; 4 
-18;female;37.29;1;no;southeast; 22.194 ;; 22 
-30;female;43.12;2;no;southeast; 47.536 ;; 48 
-62;female;36.86;1;no;northeast; 3.162.000 ;; 3.162 
-57;female;34.295;2;no;northeast; 1.322.406 ;; 1.322 
-58;female;27.17;0;no;northwest; 122.229 ;; 122 
-22;male;26.84;0;no;southeast; 16.650 ;; 17 
-31;female;38.095;1;yes;northeast; 5.857.107 ;; 5.857 
-52;male;30.2;1;no;southwest;#¡VALOR!;;#¡VALOR!
-25;female;23.465;0;no;northeast; 320.649 ;; 321 
-59;male;25.46;1;no;northeast; 129.140 ;; 129 
-19;male;30.59;0;no;northwest; 16.396 ;; 16 
-39;male;45.43;2;no;southeast; 63.563 ;; 64 
-32;female;23.65;1;no;southeast; 1.762.624 ;; 1.763 
-19;male;20.7;0;no;southwest; 1.243 ;; 1 
-33;female;28.27;1;no;southeast; 47.796 ;; 48 
-21;male;20.235;3;no;northeast; 386.121 ;; 386 
-34;female;30.21;1;yes;northwest; 439.439 ;; 439 
-61;female;35.91;0;no;northeast; 136.356 ;; 136 
-38;female;30.69;1;no;southeast; 59.768 ;; 60 
-58;female;29;0;no;southwest; 11.842 ;; 12 
-47;male;19.57;1;no;northwest; 84.281 ;; 84 
-20;male;31.13;2;no;southeast; 25.665 ;; 26 
-21;female;21.85;1;yes;northeast; 153.591 ;; 154 
-41;male;40.26;0;no;southeast; 57.092 ;; 57 
-46;female;33.725;1;no;northeast; 882.399 ;; 882 
-42;female;29.48;2;no;southeast; 76.403 ;; 76 
-34;female;33.25;1;no;northeast; 55.948 ;; 56 
-43;male;32.6;2;no;southwest; 7.442 ;; 7 
-52;female;37.525;2;no;northwest; 3.347.197 ;; 3.347 
-18;female;39.16;0;no;southeast; 16.330 ;; 16 
-51;male;31.635;0;no;northwest; 917.414 ;; 917 
-56;female;25.3;0;no;southwest; 11.071 ;; 11 
-64;female;39.05;3;no;southeast; 160.851 ;; 161 
-19;female;28.31;0;yes;northwest; 174.690 ;; 175 
-51;female;34.1;0;no;southeast; 9.284 ;; 9 
-27;female;25.175;0;no;northeast; 355.862 ;; 356 
-59;female;23.655;0;yes;northwest; 2.567.878 ;; 2.568 
-28;male;26.98;2;no;northeast; 44.351 ;; 44 
-30;male;37.8;2;yes;southwest; 39.241 ;; 39 
-47;female;29.37;1;no;southeast; 85.477 ;; 85 
-38;female;34.8;2;no;southwest; 6.572 ;; 7 
-18;female;33.155;0;no;northeast; 220.770 ;; 221 
-34;female;19;3;no;northeast; 6.753 ;; 7 
-20;female;33;0;no;southeast;#¡VALOR!;;#¡VALOR!
-47;female;36.63;1;yes;southeast; 429.699 ;; 430 
-56;female;28.595;0;no;northeast; 1.165.812 ;; 1.166 
-49;male;25.6;2;yes;southwest; 23.307 ;; 23 
-19;female;33.11;0;yes;southeast; 344.399 ;; 344 
-55;female;37.1;0;no;southwest; 10.714 ;; 11 
-30;male;31.4;1;no;southwest; 3.659 ;; 4 
-37;male;34.1;4;yes;southwest; 40.182 ;; 40 
-49;female;21.3;1;no;southwest;#¡VALOR!;;#¡VALOR!
-18;male;33.535;0;yes;northeast; 3.461.784 ;; 3.462 
-59;male;28.785;0;no;northwest; 1.212.961 ;; 1.213 
-29;female;26.03;0;no;northwest; 37.365 ;; 37 
-36;male;28.88;3;no;northeast; 67.486 ;; 67 
-33;male;42.46;1;no;southeast; 1.132.671 ;; 1.133 
-58;male;38;0;no;southwest; 11.366 ;; 11 
-44;female;38.95;0;yes;northwest; 429.835 ;; 430 
-53;male;36.1;1;no;southwest; 10.086 ;; 10 
-24;male;29.3;0;no;southwest; 1.978 ;; 2 
-29;female;35.53;0;no;southeast; 33.667 ;; 34 
-40;male;22.705;2;no;northeast; 717.336 ;; 717 
-51;male;39.7;1;no;southwest; 9.391 ;; 9 
-64;male;38.19;0;no;northeast; 144.109 ;; 144 
-19;female;24.51;1;no;northwest; 27.091 ;; 27 
-35;female;38.095;2;no;northeast; 2.491.505 ;; 2.492 
-39;male;26.41;0;yes;northeast; 201.493 ;; 201 
-56;male;33.66;4;no;southeast; 129.492 ;; 129 
-33;male;42.4;5;no;southwest; 6.666 ;; 7 
-42;male;28.31;3;yes;northwest; 3.278.746 ;; 3.279 
-61;male;33.915;0;no;northeast; 1.314.386 ;; 1.314 
-23;female;34.96;3;no;northwest; 44.666 ;; 45 
-43;male;35.31;2;no;southeast; 1.880.615 ;; 1.881 
-48;male;30.78;3;no;northeast; 101.411 ;; 101 
-39;male;26.22;1;no;northwest; 61.236 ;; 61 
-40;female;23.37;3;no;northeast; 82.523 ;; 83 
-18;male;28.5;0;no;northeast; 1.712 ;; 2 
-58;female;32.965;0;no;northeast; 1.243.095 ;; 1.243 
-49;female;42.68;2;no;southeast; 98.009 ;; 98 
-53;female;39.6;1;no;southeast; 10.580 ;; 11 
-48;female;31.13;0;no;southeast; 82.806 ;; 83 
-45;female;36.3;2;no;southeast; 8.528 ;; 9 
-59;female;35.2;0;no;southeast; 12.245 ;; 12 
-52;female;25.3;2;yes;southeast; 24.667 ;; 25 
-26;female;42.4;1;no;southwest; 3.410 ;; 3 
-27;male;33.155;2;no;northwest; 405.871 ;; 406 
-48;female;35.91;1;no;northeast; 2.639.226 ;; 2.639 
-57;female;28.785;4;no;northeast; 1.439.440 ;; 1.439 
-37;male;46.53;3;no;southeast; 64.356 ;; 64 
-57;female;23.98;1;no;southeast; 2.219.244 ;; 2.219 
-32;female;31.54;1;no;northeast; 51.486 ;; 51 
-18;male;33.66;0;no;southeast; 11.364 ;; 11 
-64;female;22.99;0;yes;southeast; 270.379 ;; 270 
-43;male;38.06;2;yes;southeast; 425.604 ;; 426 
-49;male;28.7;1;no;southwest; 8.703 ;; 9 
-40;female;32.775;2;yes;northwest; 4.000.333 ;; 4.000 
-62;male;32.015;0;yes;northeast; 4.571.021 ;; 4.571 
-40;female;29.81;1;no;southeast; 65.002 ;; 65 
-30;male;31.57;3;no;southeast; 48.376 ;; 48 
-29;female;31.16;0;no;northeast; 39.436 ;; 39 
-36;male;29.7;0;no;southeast; 4.400 ;; 4 
-41;female;31.02;0;no;southeast; 61.853 ;; 62 
-44;female;43.89;2;yes;southeast; 462.010 ;; 462 
-45;male;21.375;0;no;northwest; 722.279 ;; 722 
-55;female;40.81;3;no;southeast; 124.858 ;; 125 
-60;male;31.35;3;yes;northwest; 461.305 ;; 461 
-56;male;36.1;3;no;southwest; 12.364 ;; 12 
-49;female;23.18;2;no;northwest; 101.568 ;; 102 
-21;female;17.4;1;no;southwest; 2.585 ;; 3 
-19;male;20.3;0;no;southwest;#¡VALOR!;;#¡VALOR!
-39;male;35.3;2;yes;southwest;#¡VALOR!;;#¡VALOR!
-53;male;24.32;0;no;northwest; 98.635 ;; 99 
-33;female;18.5;1;no;southwest; 4.766 ;; 5 
-53;male;26.41;2;no;northeast; 112.444 ;; 112 
-42;male;26.125;2;no;northeast; 772.965 ;; 773 
-40;male;41.69;0;no;southeast; 54.387 ;; 54 
-47;female;24.1;1;no;southwest; 2.623.658 ;; 2.624 
-27;male;31.13;1;yes;southeast; 348.065 ;; 348 
-21;male;27.36;0;no;northeast; 21.041 ;; 21 
-47;male;36.2;1;no;southwest; 8.068 ;; 8 
-20;male;32.395;1;no;northwest; 236.223 ;; 236 
-24;male;23.655;0;no;northwest; 235.297 ;; 235 
-27;female;34.8;1;no;southwest; 3.578 ;; 4 
-26;female;40.185;0;no;northwest; 320.125 ;; 320 
-53;female;32.3;2;no;northeast; 2.918.648 ;; 2.919 
-41;male;35.75;1;yes;southeast; 402.736 ;; 403 
-56;male;33.725;0;no;northwest; 1.097.625 ;; 1.098 
-23;female;39.27;2;no;southeast; 35.006 ;; 35 
-21;female;34.87;0;no;southeast; 20.206 ;; 20 
-50;female;44.745;0;no;northeast; 954.170 ;; 954 
-53;male;41.47;0;no;southeast; 95.043 ;; 95 
-34;female;26.41;1;no;northwest; 53.853 ;; 54 
-47;female;29.545;1;no;northwest; 893.093 ;; 893 
-33;female;32.9;2;no;southwest; 5.375 ;; 5 
-51;female;38.06;0;yes;southeast; 444.004 ;; 444 
-49;male;28.69;3;no;northwest; 102.644 ;; 103 
-31;female;30.495;3;no;northeast; 611.323 ;; 611 
-36;female;27.74;0;no;northeast; 54.690 ;; 55 
-18;male;35.2;1;no;southeast;#¡VALOR!;;#¡VALOR!
-50;female;23.54;2;no;southeast; 101.072 ;; 101 
-43;female;30.685;2;no;northwest; 831.084 ;; 831 
-20;male;40.47;0;no;northeast; 19.845 ;; 20 
-24;female;22.6;0;no;southwest; 2.458 ;; 2 
-60;male;28.9;0;no;southwest; 12.147 ;; 12 
-49;female;22.61;1;no;northwest; 95.670 ;; 96 
-60;male;24.32;1;no;northwest; 131.126 ;; 131 
-51;female;36.67;2;no;northwest; 108.481 ;; 108 
-58;female;33.44;0;no;northwest; 122.316 ;; 122 
-51;female;40.66;0;no;northeast; 98.757 ;; 99 
-53;male;36.6;3;no;southwest; 11.265 ;; 11 
-62;male;37.4;0;no;southwest; 12.979 ;; 13 
-19;male;35.4;0;no;southwest; 1.263 ;; 1 
-50;female;27.075;1;no;northeast; 1.010.613 ;; 1.011 
-30;female;39.05;3;yes;southeast; 409.324 ;; 409 
-41;male;28.405;1;no;northwest; 666.469 ;; 666 
-29;female;21.755;1;yes;northeast; 1.665.772 ;; 1.666 
-18;female;40.28;0;no;northeast; 22.176 ;; 22 
-41;female;36.08;1;no;southeast; 67.814 ;; 68 
-35;male;24.42;3;yes;southeast; 193.620 ;; 194 
-53;male;21.4;1;no;southwest; 10.065 ;; 10 
-24;female;30.1;3;no;southwest; 4.235 ;; 4 
-48;female;27.265;1;no;northeast; 944.725 ;; 945 
-59;female;32.1;3;no;southwest; 14.007 ;; 14 
-49;female;34.77;1;no;northwest; 95.839 ;; 96 
-37;female;38.39;0;yes;southeast; 404.190 ;; 404 
-26;male;23.7;2;no;southwest; 3.484 ;; 3 
-23;male;31.73;3;yes;northeast; 361.891 ;; 362 
-29;male;35.5;2;yes;southwest; 4.458.546 ;; 4.459 
-45;male;24.035;2;no;northeast; 860.448 ;; 860 
-27;male;29.15;0;yes;southeast; 182.465 ;; 182 
-53;male;34.105;0;yes;northeast; 4.325.442 ;; 4.325 
-31;female;26.62;0;no;southeast; 37.578 ;; 38 
-50;male;26.41;0;no;northwest; 88.272 ;; 88 
-50;female;30.115;1;no;northwest; 991.036 ;; 991 
-34;male;27;2;no;southwest; 1.173.785 ;; 1.174 
-19;male;21.755;0;no;northwest; 162.728 ;; 163 
-47;female;36;1;no;southwest; 8.557 ;; 9 
-28;male;30.875;0;no;northwest; 306.251 ;; 306 
-37;female;26.4;0;yes;southeast; 19.539 ;; 20 
-21;male;28.975;0;no;northwest; 190.636 ;; 191 
-64;male;37.905;0;no;northwest; 1.421.054 ;; 1.421 
-58;female;22.77;0;no;southeast; 118.338 ;; 118 
-24;male;33.63;4;no;northeast; 1.712.843 ;; 1.713 
-31;male;27.645;2;no;northeast; 503.127 ;; 503 
-39;female;22.8;3;no;northeast; 7.986 ;; 8 
-47;female;27.83;0;yes;southeast; 230.654 ;; 231 
-30;male;37.43;3;no;northeast; 54.287 ;; 54 
-18;male;38.17;0;yes;southeast; 363.078 ;; 363 
-22;female;34.58;2;no;northeast; 39.258 ;; 39 
-23;male;35.2;1;no;southwest; 2.417 ;; 2 
-33;male;27.1;1;yes;southwest; 19.041 ;; 19 
-27;male;26.03;0;no;northeast; 30.708 ;; 31 
-45;female;25.175;2;no;northeast; 909.507 ;; 910 
-57;female;31.825;0;no;northwest; 1.184.262 ;; 1.184 
-47;male;32.3;1;no;southwest; 8.063 ;; 8 
-42;female;29;1;no;southwest; 7.051 ;; 7 
-64;female;39.7;0;no;southwest; 14.319 ;; 14 
-38;female;19.475;2;no;northwest; 693.324 ;; 693 
-61;male;36.1;3;no;southwest; 2.794.129 ;; 2.794 
-53;female;26.7;2;no;southwest;#¡VALOR!;;#¡VALOR!
-44;female;36.48;0;no;northeast; 1.279.721 ;; 1.280 
-19;female;28.88;0;yes;northwest; 177.485 ;; 177 
-41;male;34.2;2;no;northwest; 7.262 ;; 7 
-51;male;33.33;3;no;southeast; 105.605 ;; 106 
-40;male;32.3;2;no;northwest; 6.987 ;; 7 
-45;male;39.805;0;no;northeast; 744.840 ;; 745 
-35;male;34.32;3;no;southeast; 59.344 ;; 59 
-53;male;28.88;0;no;northwest; 98.698 ;; 99 
-30;male;24.4;3;yes;southwest; 18.259 ;; 18 
-18;male;41.14;0;no;southeast; 11.468 ;; 11 
-51;male;35.97;1;no;southeast; 93.862 ;; 94 
-50;female;27.6;1;yes;southwest; 24.520 ;; 25 
-31;female;29.26;1;no;southeast; 43.505 ;; 44 
-35;female;27.7;3;no;southwest; 6.414 ;; 6 
-60;male;36.955;0;no;northeast; 1.274.117 ;; 1.274 
-21;male;36.86;0;no;northwest; 19.173 ;; 19 
-29;male;22.515;3;no;northeast; 520.958 ;; 521 
-62;female;29.92;0;no;southeast; 134.580 ;; 135 
-39;female;41.8;0;no;southeast; 5.662 ;; 6 
-19;male;27.6;0;no;southwest; 1.252 ;; 1 
-22;female;23.18;0;no;northeast; 27.319 ;; 27 
-53;male;20.9;0;yes;southeast; 21.196 ;; 21 
-39;female;31.92;2;no;northwest; 72.095 ;; 72 
-27;male;28.5;0;yes;northwest; 18.311 ;; 18 
-30;male;44.22;2;no;southeast; 42.662 ;; 43 
-30;female;22.895;1;no;northeast; 471.952 ;; 472 
-58;female;33.1;0;no;southwest; 11.848 ;; 12 
-33;male;24.795;0;yes;northeast; 1.790.453 ;; 1.790 
-42;female;26.18;1;no;southeast; 70.467 ;; 70 
-64;female;35.97;0;no;southeast; 143.138 ;; 143 
-21;male;22.3;1;no;southwest;#¡VALOR!;;#¡VALOR!
-18;female;42.24;0;yes;southeast; 387.927 ;; 388 
-23;male;26.51;0;no;southeast; 18.159 ;; 18 
-45;female;35.815;0;no;northwest; 773.186 ;; 773 
-40;female;41.42;1;no;northwest; 2.847.673 ;; 2.848 
-19;female;36.575;0;no;northwest; 213.688 ;; 214 
-18;male;30.14;0;no;southeast; 11.315 ;; 11 
-25;male;25.84;1;no;northeast; 33.098 ;; 33 
-46;female;30.8;3;no;southwest;#¡VALOR!;;#¡VALOR!
-33;female;42.94;3;no;northwest; 63.610 ;; 64 
-54;male;21.01;2;no;southeast; 110.137 ;; 110 
-28;male;22.515;2;no;northeast; 442.889 ;; 443 
-36;male;34.43;2;no;southeast; 55.843 ;; 56 
-20;female;31.46;0;no;southeast; 18.779 ;; 19 
-24;female;24.225;0;no;northwest; 284.276 ;; 284 
-23;male;37.1;3;no;southwest; 3.598 ;; 4 
-47;female;26.125;1;yes;northeast; 2.340.131 ;; 2.340 
-33;female;35.53;0;yes;northwest; 5.513.540 ;; 5.514 
-45;male;33.7;1;no;southwest; 7.446 ;; 7 
-26;male;17.67;0;no;northwest; 26.809 ;; 27 
-18;female;31.13;0;no;southeast; 16.219 ;; 16 
-44;female;29.81;2;no;southeast; 82.192 ;; 82 
-60;male;24.32;0;no;northwest; 125.236 ;; 125 
-64;female;31.825;2;no;northeast; 1.606.908 ;; 1.607 
-56;male;31.79;2;yes;southeast; 438.139 ;; 438 
-36;male;28.025;1;yes;northeast; 2.077.363 ;; 2.077 
-41;male;30.78;3;yes;northeast; 395.974 ;; 396 
-39;male;21.85;1;no;northwest; 61.175 ;; 61 
-63;male;33.1;0;no;southwest; 13.394 ;; 13 
-36;female;25.84;0;no;northwest; 52.664 ;; 53 
-28;female;23.845;2;no;northwest; 471.974 ;; 472 
-58;male;34.39;0;no;northwest; 117.439 ;; 117 
-36;male;33.82;1;no;northwest; 53.775 ;; 54 
-42;male;35.97;2;no;southeast; 71.603 ;; 72 
-36;male;31.5;0;no;southwest; 4.402 ;; 4 
-56;female;28.31;0;no;northeast; 116.577 ;; 117 
-35;female;23.465;2;no;northeast; 640.229 ;; 640 
-59;female;31.35;0;no;northwest; 126.222 ;; 126 
-21;male;31.1;0;no;southwest; 1.526 ;; 2 
-59;male;24.7;0;no;northeast; 12.324 ;; 12 
-23;female;32.78;2;yes;southeast; 360.210 ;; 360 
-57;female;29.81;0;yes;southeast; 275.339 ;; 275 
-53;male;30.495;0;no;northeast; 1.007.206 ;; 1.007 
-60;female;32.45;0;yes;southeast; 450.090 ;; 450 
-51;female;34.2;1;no;southwest; 9.873 ;; 10 
-23;male;50.38;1;no;southeast; 24.381 ;; 24 
-27;female;24.1;0;no;southwest; 2.974 ;; 3 
-55;male;32.775;0;no;northwest; 1.060.163 ;; 1.060 
-37;female;30.78;0;yes;northeast; 372.702 ;; 373 
-61;male;32.3;2;no;northwest;#¡VALOR!;;#¡VALOR!
-46;female;35.53;0;yes;northeast; 421.117 ;; 421 
-53;female;23.75;2;no;northeast; 117.297 ;; 117 
-49;female;23.845;3;yes;northeast; 2.410.691 ;; 2.411 
-20;female;29.6;0;no;southwest; 1.875 ;; 2 
-48;female;33.11;0;yes;southeast; 409.742 ;; 410 
-25;male;24.13;0;yes;northwest; 158.180 ;; 158 
-25;female;32.23;1;no;southeast; 1.821.816 ;; 1.822 
-57;male;28.1;0;no;southwest; 10.965 ;; 11 
-37;female;47.6;2;yes;southwest; 46.114 ;; 46 
-38;female;28;3;no;southwest; 7.151 ;; 7 
-55;female;33.535;2;no;northwest; 1.226.969 ;; 1.227 
-36;female;19.855;0;no;northeast; 545.805 ;; 546 
-51;male;25.4;0;no;southwest; 8.782 ;; 9 
-40;male;29.9;2;no;southwest; 6.600 ;; 7 
-18;male;37.29;0;no;southeast; 11.414 ;; 11 
-57;male;43.7;1;no;southwest;#¡VALOR!;;#¡VALOR!
-61;male;23.655;0;no;northeast; 1.312.960 ;; 1.313 
-25;female;24.3;3;no;southwest; 4.392 ;; 4 
-50;male;36.2;0;no;southwest; 8.458 ;; 8 
-26;female;29.48;1;no;southeast; 33.924 ;; 34 
-42;male;24.86;0;no;southeast; 59.669 ;; 60 
-43;male;30.1;1;no;southwest; 6.849 ;; 7 
-44;male;21.85;3;no;northeast; 88.911 ;; 89 
-23;female;28.12;0;no;northwest; 26.901 ;; 27 
-49;female;27.1;1;no;southwest; 261.404 ;; 261 
-33;male;33.44;5;no;southeast; 66.538 ;; 67 
-41;male;28.8;1;no;southwest; 6.282 ;; 6 
-37;female;29.5;2;no;southwest; 6.312 ;; 6 
-22;male;34.8;3;no;southwest; 3.443 ;; 3 
-23;male;27.36;1;no;northwest; 27.891 ;; 28 
-21;female;22.135;0;no;northeast; 258.585 ;; 259 
-51;female;37.05;3;yes;northeast; 462.551 ;; 463 
-25;male;26.695;4;no;northwest; 487.798 ;; 488 
-32;male;28.93;1;yes;southeast; 197.197 ;; 197 
-57;male;28.975;0;yes;northeast; 2.721.844 ;; 2.722 
-36;female;30.02;0;no;northwest; 52.722 ;; 53 
-22;male;39.5;0;no;southwest; 1.683 ;; 2 
-57;male;33.63;1;no;northwest; 119.451 ;; 119 
-64;female;26.885;0;yes;northwest; 2.933.098 ;; 2.933 
-36;female;29.04;4;no;southeast; 72.438 ;; 72 
-54;male;24.035;0;no;northeast; 1.042.292 ;; 1.042 
-47;male;38.94;2;yes;southeast; 442.027 ;; 442 
-62;male;32.11;0;no;northeast; 135.550 ;; 136 
-61;female;44;0;no;southwest; 13.064 ;; 13 
-43;female;20.045;2;yes;northeast; 1.979.805 ;; 1.980 
-19;male;25.555;1;no;northwest; 222.156 ;; 222 
-18;female;40.26;0;no;southeast; 16.346 ;; 16 
-19;female;22.515;0;no;northwest; 211.734 ;; 212 
-49;male;22.515;0;no;northeast; 868.886 ;; 869 
-60;male;40.92;0;yes;southeast; 486.736 ;; 487 
-26;male;27.265;3;no;northeast; 466.129 ;; 466 
-49;male;36.85;0;no;southeast; 81.258 ;; 81 
-60;female;35.1;0;no;southwest; 12.645 ;; 13 
-26;female;29.355;2;no;northeast; 456.419 ;; 456 
-27;male;32.585;3;no;northeast; 484.692 ;; 485 
-44;female;32.34;1;no;southeast; 76.337 ;; 76 
-63;male;39.8;3;no;southwest; 15.170 ;; 15 
-32;female;24.6;0;yes;southwest; 17.496 ;; 17 
-22;male;28.31;1;no;northwest; 26.390 ;; 26 
-18;male;31.73;0;yes;northeast; 337.327 ;; 337 
-59;female;26.695;3;no;northwest; 1.438.271 ;; 1.438 
-44;female;27.5;1;no;southwest; 7.627 ;; 8 
-33;male;24.605;2;no;northwest; 525.751 ;; 526 
-24;female;33.99;0;no;southeast; 24.733 ;; 25 
-43;female;26.885;0;yes;northwest; 2.177.432 ;; 2.177 
-45;male;22.895;0;yes;northeast; 3.506.937 ;; 3.507 
-61;female;28.2;0;no;southwest; 13.042 ;; 13 
-35;female;34.21;1;no;southeast; 52.452 ;; 52 
-62;female;25;0;no;southwest; 13.451 ;; 13 
-62;female;33.2;0;no;southwest;#¡VALOR!;;#¡VALOR!
-38;male;31;1;no;southwest; 5.488 ;; 5 
-34;male;35.815;0;no;northwest; 432.041 ;; 432 
-43;male;23.2;0;no;southwest; 6.250 ;; 6 
-50;male;32.11;2;no;northeast; 2.533.333 ;; 2.533 
-19;female;23.4;2;no;southwest; 2.914 ;; 3 
-57;female;20.1;1;no;southwest; 12.032 ;; 12 
-62;female;39.16;0;no;southeast; 134.708 ;; 135 
-41;male;34.21;1;no;southeast; 62.898 ;; 63 
-26;male;46.53;1;no;southeast; 29.271 ;; 29 
-39;female;32.5;1;no;southwest; 6.238 ;; 6 
-46;male;25.8;5;no;southwest;#¡VALOR!;;#¡VALOR!
-45;female;35.3;0;no;southwest; 7.348 ;; 7 
-32;male;37.18;2;no;southeast; 46.734 ;; 47 
-59;female;27.5;0;no;southwest; 12.234 ;; 12 
-44;male;29.735;2;no;northeast; 3.210.866 ;; 3.211 
-39;female;24.225;5;no;northwest; 896.580 ;; 897 
-18;male;26.18;2;no;southeast; 23.040 ;; 23 
-53;male;29.48;0;no;southeast; 94.876 ;; 95 
-18;male;23.21;0;no;southeast; 11.219 ;; 11 
-50;female;46.09;1;no;southeast; 95.496 ;; 95 
-18;female;40.185;0;no;northeast; 221.747 ;; 222 
-19;male;22.61;0;no;northwest; 16.285 ;; 16 
-62;male;39.93;0;no;southeast; 129.829 ;; 130 
-56;female;35.8;1;no;southwest;#¡VALOR!;;#¡VALOR!
-42;male;35.8;2;no;southwest; 7.160 ;; 7 
-37;male;34.2;1;yes;northeast; 39.047 ;; 39 
-42;male;31.255;0;no;northwest; 635.878 ;; 636 
-25;male;29.7;3;yes;southwest; 19.933 ;; 20 
-57;male;18.335;0;no;northeast; 1.153.487 ;; 1.153 
-51;male;42.9;2;yes;southeast; 47.463 ;; 47 
-30;female;28.405;1;no;northwest; 452.718 ;; 453 
-44;male;30.2;2;yes;southwest; 38.999 ;; 39 
-34;male;27.835;1;yes;northwest; 2.000.963 ;; 2.001 
-31;male;39.49;1;no;southeast; 38.757 ;; 39 
-54;male;30.8;1;yes;southeast;#¡VALOR!;;#¡VALOR!
-24;male;26.79;1;no;northwest; 1.260.989 ;; 1.261 
-43;male;34.96;1;yes;northeast; 410.342 ;; 410 
-48;male;36.67;1;no;northwest; 2.846.892 ;; 2.847 
-19;female;39.615;1;no;northwest; 273.011 ;; 273 
-29;female;25.9;0;no;southwest; 3.353 ;; 3 
-63;female;35.2;1;no;southeast; 14.475 ;; 14 
-46;male;24.795;3;no;northeast; 950.057 ;; 950 
-52;male;36.765;2;no;northwest; 2.646.710 ;; 2.647 
-35;male;27.1;1;no;southwest; 4.746 ;; 5 
-51;male;24.795;2;yes;northwest; 2.396.738 ;; 2.397 
-44;male;25.365;1;no;northwest; 751.803 ;; 752 
-21;male;25.745;2;no;northeast; 327.987 ;; 328 
-39;female;34.32;5;no;southeast; 85.968 ;; 86 
-50;female;28.16;3;no;southeast; 107.026 ;; 107 
-34;female;23.56;0;no;northeast; 49.924 ;; 50 
-22;female;20.235;0;no;northwest; 252.782 ;; 253 
-19;female;40.5;0;no;southwest; 1.759 ;; 2 
-26;male;35.42;0;no;southeast; 23.226 ;; 23 
-29;male;22.895;0;yes;northeast; 1.613.876 ;; 1.614 
-48;male;40.15;0;no;southeast; 78.042 ;; 78 
-26;male;29.15;1;no;southeast; 29.029 ;; 29 
-45;female;39.995;3;no;northeast; 970.467 ;; 970 
-36;female;29.92;0;no;southeast; 48.890 ;; 49 
-54;male;25.46;1;no;northeast; 2.551.711 ;; 2.552 
-34;male;21.375;0;no;northeast; 450.034 ;; 450 
-31;male;25.9;3;yes;southwest; 19.200 ;; 19 
-27;female;30.59;1;no;northeast; 1.679.641 ;; 1.680 
-20;male;30.115;5;no;northeast; 491.506 ;; 492 
-44;female;25.8;1;no;southwest;#¡VALOR!;;#¡VALOR!
-43;male;30.115;3;no;northwest; 841.005 ;; 841 
-45;female;27.645;1;no;northwest; 2.834.019 ;; 2.834 
-34;male;34.675;0;no;northeast; 451.883 ;; 452 
-24;female;20.52;0;yes;northeast; 145.719 ;; 146 
-26;female;19.8;1;no;southwest;#¡VALOR!;;#¡VALOR!
-38;female;27.835;2;no;northeast; 714.486 ;; 714 
-50;female;31.6;2;no;southwest; 10.118 ;; 10 
-38;male;28.27;1;no;southeast; 54.845 ;; 55 
-27;female;20.045;3;yes;northwest; 1.642.049 ;; 1.642 
-39;female;23.275;3;no;northeast; 798.648 ;; 799 
-39;female;34.1;3;no;southwest; 7.419 ;; 7 
-63;female;36.85;0;no;southeast; 138.880 ;; 139 
-33;female;36.29;3;no;northeast; 65.518 ;; 66 
-36;female;26.885;0;no;northwest; 526.782 ;; 527 
-30;male;22.99;2;yes;northwest; 173.618 ;; 174 
-24;male;32.7;0;yes;southwest; 34.473 ;; 34 
-24;male;25.8;0;no;southwest;#¡VALOR!;;#¡VALOR!
-48;male;29.6;0;no;southwest; 2.123.218 ;; 2.123 
-47;male;19.19;1;no;northeast; 86.275 ;; 86 
-29;male;31.73;2;no;northwest; 44.334 ;; 44 
-28;male;29.26;2;no;northeast; 44.383 ;; 44 
-47;male;28.215;3;yes;northwest; 2.491.522 ;; 2.492 
-25;male;24.985;2;no;northeast; 2.324.147 ;; 2.324 
-51;male;27.74;1;no;northeast; 99.577 ;; 100 
-48;female;22.8;0;no;southwest; 8.269 ;; 8 
-43;male;20.13;2;yes;southeast; 187.677 ;; 188 
-61;female;33.33;4;no;southeast; 3.658.028 ;; 3.658 
-48;male;32.3;1;no;northwest; 8.765 ;; 9 
-38;female;27.6;0;no;southwest; 5.384 ;; 5 
-59;male;25.46;0;no;northwest; 121.250 ;; 121 
-19;female;24.605;1;no;northwest; 270.924 ;; 271 
-26;female;34.2;2;no;southwest; 3.988 ;; 4 
-54;female;35.815;3;no;northwest; 1.249.529 ;; 1.250 
-21;female;32.68;2;no;northwest; 2.601.895 ;; 2.602 
-51;male;37;0;no;southwest; 8.799 ;; 9 
-22;female;31.02;3;yes;southeast; 355.956 ;; 356 
-47;male;36.08;1;yes;southeast; 422.111 ;; 422 
-18;male;23.32;1;no;southeast; 17.110 ;; 17 
-47;female;45.32;1;no;southeast; 85.699 ;; 86 
-21;female;34.6;0;no;southwest; 2.020 ;; 2 
-19;male;26.03;1;yes;northwest; 164.509 ;; 165 
-23;male;18.715;0;no;northwest; 2.159.538 ;; 2.160 
-54;male;31.6;0;no;southwest; 9.850 ;; 10 
-37;female;17.29;2;no;northeast; 68.780 ;; 69 
-46;female;23.655;1;yes;northwest; 2.167.728 ;; 2.168 
-55;female;35.2;0;yes;southeast; 44.424 ;; 44 
-30;female;27.93;0;no;northeast; 41.375 ;; 41 
-18;male;21.565;0;yes;northeast; 1.374.787 ;; 1.375 
-61;male;38.38;0;no;northwest; 129.501 ;; 130 
-54;female;23;3;no;southwest; 12.094 ;; 12 
-22;male;37.07;2;yes;southeast; 374.844 ;; 375 
-45;female;30.495;1;yes;northwest; 3.972.552 ;; 3.973 
-22;male;28.88;0;no;northeast; 22.508 ;; 23 
-19;male;27.265;2;no;northwest; 2.249.366 ;; 2.249 
-35;female;28.025;0;yes;northwest; 2.023.485 ;; 2.023 
-18;male;23.085;0;no;northeast; 170.470 ;; 170 
-20;male;30.685;0;yes;northeast; 3.347.582 ;; 3.348 
-28;female;25.8;0;no;southwest; 3.161 ;; 3 
-55;male;35.245;1;no;northeast; 1.139.407 ;; 1.139 
-43;female;24.7;2;yes;northwest;#¡VALOR!;;#¡VALOR!
-43;female;25.08;0;no;northeast; 73.250 ;; 73 
-22;male;52.58;1;yes;southeast; 445.014 ;; 445 
-25;female;22.515;1;no;northwest; 359.417 ;; 359 
-49;male;30.9;0;yes;southwest; 39.728 ;; 40 
-44;female;36.955;1;no;northwest; 802.314 ;; 802 
-64;male;26.41;0;no;northeast; 143.946 ;; 144 
-49;male;29.83;1;no;northeast; 92.880 ;; 93 
-47;male;29.8;3;yes;southwest; 25.309 ;; 25 
-27;female;21.47;0;no;northwest; 33.535 ;; 34 
-55;male;27.645;0;no;northwest; 1.059.450 ;; 1.059 
-48;female;28.9;0;no;southwest; 8.278 ;; 8 
-45;female;31.79;0;no;southeast; 1.792.930 ;; 1.793 
-24;female;39.49;0;no;southeast; 24.810 ;; 25 
-32;male;33.82;1;no;northwest; 44.627 ;; 45 
-24;male;32.01;0;no;southeast; 19.816 ;; 20 
-57;male;27.94;1;no;southeast; 115.542 ;; 116 
-59;male;41.14;1;yes;southeast; 489.702 ;; 490 
-36;male;28.595;3;no;northwest; 654.820 ;; 655 
-29;female;25.6;4;no;southwest; 5.709 ;; 6 
-42;female;25.3;1;no;southwest; 7.045 ;; 7 
-48;male;37.29;2;no;southeast; 89.782 ;; 90 
-39;male;42.655;0;no;northeast; 575.741 ;; 576 
-63;male;21.66;1;no;northwest; 143.499 ;; 143 
-54;female;31.9;1;no;southeast; 10.929 ;; 11 
-37;male;37.07;1;yes;southeast; 398.717 ;; 399 
-63;male;31.445;0;no;northeast; 1.397.446 ;; 1.397 
-21;male;31.255;0;no;northwest; 190.953 ;; 191 
-54;female;28.88;2;no;northeast; 120.967 ;; 121 
-60;female;18.335;0;no;northeast; 1.320.429 ;; 1.320 
-32;female;29.59;1;no;southeast; 45.628 ;; 46 
-47;female;32;1;no;southwest; 8.551 ;; 9 
-21;male;26.03;0;no;northeast; 21.023 ;; 21 
-28;male;31.68;0;yes;southeast; 346.721 ;; 347 
-63;male;33.66;3;no;southeast; 151.615 ;; 152 
-18;male;21.78;2;no;southeast; 1.188.405 ;; 1.188 
-32;male;27.835;1;no;northwest; 445.440 ;; 445 
-38;male;19.95;1;no;northwest; 58.559 ;; 59 
-32;male;31.5;1;no;southwest; 4.076 ;; 4 
-62;female;30.495;2;no;northwest; 1.501.976 ;; 1.502 
-39;female;18.3;5;yes;southwest;#¡VALOR!;;#¡VALOR!
-55;male;28.975;0;no;northeast; 1.079.635 ;; 1.080 
-57;male;31.54;0;no;northwest; 113.532 ;; 114 
-52;male;47.74;1;no;southeast; 97.489 ;; 97 
-56;male;22.1;0;no;southwest; 10.577 ;; 11 
-47;male;36.19;0;yes;southeast; 416.761 ;; 417 
-55;female;29.83;0;no;northeast; 112.865 ;; 113 
-23;male;32.7;3;no;southwest;#¡VALOR!;;#¡VALOR!
-22;female;30.4;0;yes;northwest; 33.908 ;; 34 
-50;female;33.7;4;no;southwest; 11.299 ;; 11 
-18;female;31.35;4;no;northeast; 45.612 ;; 46 
-51;female;34.96;2;yes;northeast; 446.412 ;; 446 
-22;male;33.77;0;no;southeast; 16.746 ;; 17 
-52;female;30.875;0;no;northeast; 2.304.557 ;; 2.305 
-25;female;33.99;1;no;southeast; 32.271 ;; 32 
-33;female;19.095;2;yes;northeast; 1.677.630 ;; 1.678 
-53;male;28.6;3;no;southwest; 11.253 ;; 11 
-29;male;38.94;1;no;southeast; 34.714 ;; 35 
-58;male;36.08;0;no;southeast; 113.633 ;; 114 
-37;male;29.8;0;no;southwest; 2.042.060 ;; 2.042 
-54;female;31.24;0;no;southeast; 103.389 ;; 103 
-49;female;29.925;0;no;northwest; 898.816 ;; 899 
-50;female;26.22;2;no;northwest; 104.939 ;; 105 
-26;male;30;1;no;southwest; 2.904 ;; 3 
-45;male;20.35;3;no;southeast; 86.054 ;; 86 
-54;female;32.3;1;no;northeast; 11.512 ;; 12 
-38;male;38.39;3;yes;southeast; 419.492 ;; 419 
-48;female;25.85;3;yes;southeast; 241.809 ;; 242 
-28;female;26.315;3;no;northwest; 531.217 ;; 531 
-23;male;24.51;0;no;northeast; 23.961 ;; 24 
-55;male;32.67;1;no;southeast; 108.075 ;; 108 
-41;male;29.64;5;no;northeast; 92.224 ;; 92 
-25;male;33.33;2;yes;southeast; 361.246 ;; 361 
-33;male;35.75;1;yes;southeast; 382.827 ;; 383 
-30;female;19.95;3;no;northwest; 56.934 ;; 57 
-23;female;31.4;0;yes;southwest; 34.166 ;; 34 
-46;male;38.17;2;no;southeast; 83.472 ;; 83 
-53;female;36.86;3;yes;northwest; 466.614 ;; 467 
-27;female;32.395;1;no;northeast; 1.890.349 ;; 1.890 
-23;female;42.75;1;yes;northeast; 409.042 ;; 409 
-63;female;25.08;0;no;northwest; 142.546 ;; 143 
-55;male;29.9;0;no;southwest; 10.215 ;; 10 
-35;female;35.86;2;no;southeast; 58.365 ;; 58 
-34;male;32.8;1;no;southwest; 1.435.836 ;; 1.436 
-19;female;18.6;0;no;southwest; 1.729 ;; 2 
-39;female;23.87;5;no;southeast; 85.823 ;; 86 
-27;male;45.9;2;no;southwest; 3.693 ;; 4 
-57;male;40.28;0;no;northeast; 2.070.902 ;; 2.071 
-52;female;18.335;0;no;northwest; 999.104 ;; 999 
-28;male;33.82;0;no;northwest; 1.967.334 ;; 1.967 
-50;female;28.12;3;no;northwest; 110.856 ;; 111 
-44;female;25;1;no;southwest; 7.624 ;; 8 
-26;female;22.23;0;no;northwest; 31.763 ;; 32 
-33;male;30.25;0;no;southeast; 37.044 ;; 37 
-19;female;32.49;0;yes;northwest; 3.689.873 ;; 3.690 
-50;male;37.07;1;no;southeast; 90.480 ;; 90 
-41;female;32.6;3;no;southwest; 7.955 ;; 8 
-52;female;24.86;0;no;southeast; 2.711.799 ;; 2.712 
-39;male;32.34;2;no;southeast; 63.381 ;; 63 
-50;male;32.3;2;no;southwest; 9.630 ;; 10 
-52;male;32.775;3;no;northwest; 1.128.911 ;; 1.129 
-60;male;32.8;0;yes;southwest; 5.259.083 ;; 5.259 
-20;female;31.92;0;no;northwest; 22.616 ;; 23 
-55;male;21.5;1;no;southwest;#¡VALOR!;;#¡VALOR!
-42;male;34.1;0;no;southwest; 5.980 ;; 6 
-18;female;30.305;0;no;northeast; 220.374 ;; 220 
-58;female;36.48;0;no;northwest; 122.358 ;; 122 
-43;female;32.56;3;yes;southeast; 409.413 ;; 409 
-35;female;35.815;1;no;northwest; 563.046 ;; 563 
-48;female;27.93;4;no;northwest; 110.152 ;; 110 
-36;female;22.135;3;no;northeast; 722.822 ;; 723 
-19;male;44.88;0;yes;southeast; 397.227 ;; 397 
-23;female;23.18;2;no;northwest; 1.442.607 ;; 1.443 
-20;female;30.59;0;no;northeast; 24.597 ;; 25 
-32;female;41.1;0;no;southwest; 3.990 ;; 4 
-43;female;34.58;1;no;northwest; 77.273 ;; 77 
-34;male;42.13;2;no;southeast; 51.242 ;; 51 
-30;male;38.83;1;no;southeast; 1.896.317 ;; 1.896 
-18;female;28.215;0;no;northeast; 220.083 ;; 220 
-41;female;28.31;1;no;northwest; 71.536 ;; 72 
-35;female;26.125;0;no;northeast; 522.799 ;; 523 
-57;male;40.37;0;no;southeast; 109.825 ;; 110 
-29;female;24.6;2;no;southwest; 4.529 ;; 5 
-32;male;35.2;2;no;southwest;#¡VALOR!;;#¡VALOR!
-37;female;34.105;1;no;northwest; 611.235 ;; 611 
-18;male;27.36;1;yes;northeast; 171.787 ;; 172 
-43;female;26.7;2;yes;southwest;#¡VALOR!;;#¡VALOR!
-56;female;41.91;0;no;southeast; 110.936 ;; 111 
-38;male;29.26;2;no;northwest; 64.578 ;; 65 
-29;male;32.11;2;no;northwest; 44.339 ;; 44 
-22;female;27.1;0;no;southwest; 2.154 ;; 2 
-52;female;24.13;1;yes;northwest; 238.877 ;; 239 
-40;female;27.4;1;no;southwest; 6.497 ;; 6 
-23;female;34.865;0;no;northeast; 289.949 ;; 290 
-31;male;29.81;0;yes;southeast; 193.504 ;; 194 
-42;female;41.325;1;no;northeast; 765.077 ;; 765 
-24;female;29.925;0;no;northwest; 285.068 ;; 285 
-25;female;30.3;0;no;southwest; 2.633 ;; 3 
-48;female;27.36;1;no;northeast; 94.474 ;; 94 
-23;female;28.49;1;yes;southeast; 183.282 ;; 183 
-45;male;23.56;2;no;northeast; 86.038 ;; 86 
-20;male;35.625;3;yes;northwest; 3.746.534 ;; 3.747 
-62;female;32.68;0;no;northwest; 138.448 ;; 138 
-43;female;25.27;1;yes;northeast; 217.713 ;; 218 
-23;female;28;0;no;southwest; 1.312.668 ;; 1.313 
-31;female;32.775;2;no;northwest; 532.740 ;; 533 
-41;female;21.755;1;no;northeast; 1.372.547 ;; 1.373 
-58;female;32.395;1;no;northeast; 1.301.916 ;; 1.302 
-48;female;36.575;0;no;northwest; 867.119 ;; 867 
-31;female;21.755;0;no;northwest; 413.408 ;; 413 
-19;female;27.93;3;no;northwest; 1.883.870 ;; 1.884 
-19;female;30.02;0;yes;northwest; 333.076 ;; 333 
-41;male;33.55;0;no;southeast; 56.998 ;; 57 
-40;male;29.355;1;no;northwest; 639.360 ;; 639 
-31;female;25.8;2;no;southwest; 4.935 ;; 5 
-37;male;24.32;2;no;northwest; 61.988 ;; 62 
-46;male;40.375;2;no;northwest; 873.323 ;; 873 
-22;male;32.11;0;no;northwest; 20.553 ;; 21 
-51;male;32.3;1;no;northeast;#¡VALOR!;;#¡VALOR!
-18;female;27.28;3;yes;southeast; 182.235 ;; 182 
-35;male;17.86;1;no;northwest; 51.165 ;; 51 
-59;female;34.8;2;no;southwest; 3.691.061 ;; 3.691 
-36;male;33.4;2;yes;southwest; 38.415 ;; 38 
-37;female;25.555;1;yes;northeast; 2.029.686 ;; 2.030 
-59;male;37.1;1;no;southwest; 12.347 ;; 12 
-36;male;30.875;1;no;northwest; 537.336 ;; 537 
-39;male;34.1;2;no;southeast; 2.356.302 ;; 2.356 
-18;male;21.47;0;no;northeast; 17.025 ;; 17 
-52;female;33.3;2;no;southwest; 10.807 ;; 11 
-27;female;31.255;1;no;northwest; 395.607 ;; 396 
-18;male;39.14;0;no;northeast; 1.289.006 ;; 1.289 
-40;male;25.08;0;no;southeast; 54.157 ;; 54 
-29;male;37.29;2;no;southeast; 40.581 ;; 41 
-46;female;34.6;1;yes;southwest; 41.662 ;; 42 
-38;female;30.21;3;no;northwest; 75.372 ;; 75 
-30;female;21.945;1;no;northeast; 471.820 ;; 472 
-40;male;24.97;2;no;southeast; 65.935 ;; 66 
-50;male;25.3;0;no;southeast; 8.443 ;; 8 
-20;female;24.42;0;yes;southeast; 2.612.567 ;; 2.613 
-41;male;23.94;1;no;northeast; 68.585 ;; 69 
-33;female;39.82;1;no;southeast; 47.957 ;; 48 
-38;male;16.815;2;no;northeast; 664.054 ;; 664 
-42;male;37.18;2;no;southeast; 71.620 ;; 72 
-56;male;34.43;0;no;southeast; 105.942 ;; 106 
-58;male;30.305;0;no;northeast; 1.193.826 ;; 1.194 
-52;male;34.485;3;yes;northwest; 6.002.140 ;; 6.002 
-20;female;21.8;0;yes;southwest; 2.016.734 ;; 2.017 
-54;female;24.605;3;no;northwest; 1.247.971 ;; 1.248 
-58;male;23.3;0;no;southwest; 11.346 ;; 11 
-45;female;27.83;2;no;southeast; 85.158 ;; 85 
-26;male;31.065;0;no;northwest; 269.957 ;; 270 
-63;female;21.66;0;no;northeast; 144.499 ;; 144 
-58;female;28.215;0;no;northwest; 1.222.435 ;; 1.222 
-37;male;22.705;3;no;northeast; 698.551 ;; 699 
-25;female;42.13;1;no;southeast; 32.384 ;; 32 
-52;male;41.8;2;yes;southeast; 47.270 ;; 47 
-64;male;36.96;2;yes;southeast; 495.777 ;; 496 
-22;female;21.28;3;no;northwest; 42.963 ;; 43 
-28;female;33.11;0;no;southeast; 31.716 ;; 32 
-18;male;33.33;0;no;southeast; 11.359 ;; 11 
-28;male;24.3;5;no;southwest; 5.615 ;; 6 
-45;female;25.7;3;no;southwest; 9.102 ;; 9 
-33;male;29.4;4;no;southwest; 6.059 ;; 6 
-18;female;39.82;0;no;southeast; 16.340 ;; 16 
-32;male;33.63;1;yes;northeast; 376.075 ;; 376 
-24;male;29.83;0;yes;northeast; 186.484 ;; 186 
-19;male;19.8;0;no;southwest; 1.242 ;; 1 
-20;male;27.3;0;yes;southwest; 16.233 ;; 16 
-40;female;29.3;4;no;southwest; 1.582.882 ;; 1.583 
-34;female;27.72;0;no;southeast; 44.152 ;; 44 
-42;female;37.9;0;no;southwest; 6.474 ;; 6 
-51;female;36.385;3;no;northwest; 1.143.674 ;; 1.144 
-54;female;27.645;1;no;northwest; 1.130.593 ;; 1.131 
-55;male;37.715;3;no;northwest; 3.006.358 ;; 3.006 
-52;female;23.18;0;no;northeast; 101.978 ;; 102 
-32;female;20.52;0;no;northeast; 45.442 ;; 45 
-28;male;37.1;1;no;southwest; 3.277 ;; 3 
-41;female;28.05;1;no;southeast; 67.702 ;; 68 
-43;female;29.9;1;no;southwest; 7.338 ;; 7 
-49;female;33.345;2;no;northeast; 1.037.091 ;; 1.037 
-64;male;23.76;0;yes;southeast; 269.265 ;; 269 
-55;female;30.5;0;no;southwest;#¡VALOR!;;#¡VALOR!
-24;male;31.065;0;yes;northeast; 3.425.405 ;; 3.425 
-20;female;33.3;0;no;southwest; 1.880 ;; 2 
-45;male;27.5;3;no;southwest;#¡VALOR!;;#¡VALOR!
-26;male;33.915;1;no;northwest; 329.253 ;; 329 
-25;female;34.485;0;no;northwest; 302.181 ;; 302 
-43;male;25.52;5;no;southeast; 1.447.833 ;; 1.448 
-35;male;27.61;1;no;southeast; 47.471 ;; 47 
-26;male;27.06;0;yes;southeast; 170.433 ;; 170 
-57;male;23.7;0;no;southwest;#¡VALOR!;;#¡VALOR!
-22;female;30.4;0;no;northeast; 2.742 ;; 3 
-32;female;29.735;0;no;northwest; 435.704 ;; 436 
-39;male;29.925;1;yes;northeast; 2.246.204 ;; 2.246 
-25;female;26.79;2;no;northwest; 41.891 ;; 42 
-48;female;33.33;0;no;southeast; 82.837 ;; 83 
-47;female;27.645;2;yes;northwest; 2.453.570 ;; 2.454 
-18;female;21.66;0;yes;northeast; 142.835 ;; 143 
-18;male;30.03;1;no;southeast; 17.204 ;; 17 
-61;male;36.3;1;yes;southwest;#¡VALOR!;;#¡VALOR!
-47;female;24.32;0;no;northeast; 85.347 ;; 85 
-28;female;17.29;0;no;northeast; 37.326 ;; 37 
-36;female;25.9;1;no;southwest; 5.472 ;; 5 
-20;male;39.4;2;yes;southwest; 38.345 ;; 38 
-44;male;34.32;1;no;southeast; 71.475 ;; 71 
-38;female;19.95;2;no;northeast; 71.339 ;; 71 
-19;male;34.9;0;yes;southwest; 34.829 ;; 35 
-21;male;23.21;0;no;southeast; 15.153 ;; 15 
-46;male;25.745;3;no;northwest; 930.189 ;; 930 
-58;male;25.175;0;no;northeast; 1.193.113 ;; 1.193 
-20;male;22;1;no;southwest;#¡VALOR!;;#¡VALOR!
-18;male;26.125;0;no;northeast; 170.893 ;; 171 
-28;female;26.51;2;no;southeast; 43.404 ;; 43 
-33;male;27.455;2;no;northwest; 526.147 ;; 526 
-19;female;25.745;1;no;northwest; 271.083 ;; 271 
-45;male;30.36;0;yes;southeast; 6.259.287 ;; 6.259 
-62;male;30.875;3;yes;northwest; 4.671.816 ;; 4.672 
-25;female;20.8;1;no;southwest; 3.209 ;; 3 
-43;male;27.8;0;yes;southwest; 378.297 ;; 378 
-42;male;24.605;2;yes;northeast; 2.125.938 ;; 2.126 
-24;female;27.72;0;no;southeast; 24.646 ;; 25 
-29;female;21.85;0;yes;northeast; 161.153 ;; 161 
-32;male;28.12;4;yes;northwest; 214.725 ;; 215 
-25;female;30.2;0;yes;southwest; 33.901 ;; 34 
-41;male;32.2;2;no;southwest; 6.876 ;; 7 
-42;male;26.315;1;no;northwest; 694.091 ;; 694 
-33;female;26.695;0;no;northwest; 457.141 ;; 457 
-34;male;42.9;1;no;southwest; 4.536 ;; 5 
-19;female;34.7;2;yes;southwest; 36.398 ;; 36 
-30;female;23.655;3;yes;northwest; 1.876.588 ;; 1.877 
-18;male;28.31;1;no;northeast; 1.127.233 ;; 1.127 
-19;female;20.6;0;no;southwest; 1.732 ;; 2 
-18;male;53.13;0;no;southeast; 11.635 ;; 12 
-35;male;39.71;4;no;northeast; 1.949.672 ;; 1.950 
-39;female;26.315;2;no;northwest; 720.170 ;; 720 
-31;male;31.065;3;no;northwest; 542.502 ;; 543 
-62;male;26.695;0;yes;northeast; 2.810.133 ;; 2.810 
-62;male;38.83;0;no;southeast; 129.813 ;; 130 
-42;female;40.37;2;yes;southeast; 438.964 ;; 439 
-31;male;25.935;1;no;northwest; 423.989 ;; 424 
-61;male;33.535;0;no;northeast; 1.314.334 ;; 1.314 
-42;female;32.87;0;no;northeast; 70.500 ;; 71 
-51;male;30.03;1;no;southeast; 93.779 ;; 94 
-23;female;24.225;2;no;northeast; 2.239.574 ;; 2.240 
-52;male;38.6;2;no;southwest; 10.325 ;; 10 
-57;female;25.74;2;no;southeast; 126.292 ;; 126 
-23;female;33.4;0;no;southwest; 1.079.594 ;; 1.080 
-52;female;44.7;3;no;southwest; 11.412 ;; 11 
-50;male;30.97;3;no;northwest; 106.005 ;; 106 
-18;female;31.92;0;no;northeast; 22.060 ;; 22 
-18;female;36.85;0;no;southeast; 16.298 ;; 16 
-21;female;25.8;0;no;southwest; 2.008 ;; 2 
-61;female;29.07;0;yes;northwest; 291.414 ;; 291 
+age;sex;bmi;children;smoker;region; charges 
+19;female;27.9;0;yes;southwest;16.885
+18;male;33.77;1;no;southeast;17.256
+28;male;33;3;no;southeast;4.449
+33;male;22.705;0;no;northwest;2.198.447
+32;male;28.88;0;no;northwest;38.669
+31;female;25.74;0;no;southeast;37.566
+46;female;33.44;1;no;southeast;82.406
+37;female;27.74;3;no;northwest;72.815
+37;male;29.83;2;no;northeast;64.064
+60;female;25.84;0;no;northwest;2.892.314
+25;male;26.22;0;no;northeast;27.213
+62;female;26.29;0;yes;southeast;278.087
+23;male;34.4;0;no;southwest;1.827
+56;female;39.82;0;no;southeast;110.907
+27;male;42.13;0;yes;southeast;396.118
+19;male;24.6;1;no;southwest;1.837
+52;female;30.78;1;no;northeast;107.973
+23;male;23.845;0;no;northeast;239.517
+56;male;40.3;0;no;southwest;10.602
+30;male;35.3;0;yes;southwest;36.837
+60;female;36.005;0;no;northeast;1.322.885
+30;female;32.4;1;no;southwest;4.150
+18;male;34.1;0;no;southeast;1.137
+34;female;31.92;1;yes;northeast;377.019
+37;male;28.025;2;no;northwest;620.390
+59;female;27.72;3;no;southeast;140.011
+63;female;23.085;0;no;northeast;1.445.184
+55;female;32.775;2;no;northwest;1.226.863
+23;male;17.385;1;no;northwest;277.519
+31;male;36.3;2;yes;southwest;39
+22;male;35.6;0;yes;southwest;35.586
+18;female;26.315;0;no;northeast;219.819
+19;female;28.6;5;no;southwest;4.688
+63;male;28.31;0;no;northwest;137.701
+28;male;36.4;1;yes;southwest;5.119.456
+19;male;20.425;0;no;northwest;162.543
+62;female;32.965;3;no;northwest;1.561.219
+26;male;20.8;0;no;southwest;#¡VALOR!
+35;male;36.67;1;yes;northeast;397.743
+60;male;39.9;0;yes;southwest;48.173
+24;female;26.6;0;no;northeast;3.046
+31;female;36.63;2;no;southeast;49.498
+41;male;21.78;1;no;southeast;62.725
+37;female;30.8;2;no;southeast;6.314
+38;male;37.05;1;no;northeast;60.797
+55;male;37.3;0;no;southwest;2.063.028
+18;female;38.665;2;no;northeast;339.336
+28;female;34.77;0;no;northwest;35.569
+60;female;24.53;0;no;southeast;126.299
+36;male;35.2;1;yes;southeast;38.709
+18;female;35.625;0;no;northeast;221.113
+21;female;33.63;2;no;northwest;35.798
+48;male;28;1;yes;southwest;23.568
+36;male;34.43;0;yes;southeast;377.426
+40;female;28.69;3;no;northwest;80.597
+58;male;36.955;2;yes;northwest;4.749.649
+58;female;31.825;2;no;northeast;1.360.737
+18;male;31.68;2;yes;southeast;343.032
+53;female;22.88;1;yes;southeast;232.448
+34;female;37.335;2;no;northwest;598.952
+43;male;27.36;3;no;northeast;86.062
+25;male;33.66;4;no;southeast;45.047
+64;male;24.7;1;no;northwest;3.016.662
+28;female;25.935;1;no;northwest;413.364
+20;female;22.42;0;yes;northwest;147.117
+19;female;28.9;0;no;southwest;1.743
+61;female;39.1;2;no;southwest;14.235
+40;male;26.315;1;no;northwest;638.938
+40;female;36.19;0;no;southeast;59.201
+28;male;23.98;3;yes;southeast;176.631
+27;female;24.75;0;yes;southeast;165.778
+31;male;28.5;5;no;northeast;6.799
+53;female;28.1;3;no;southwest;11.742
+58;male;32.01;1;no;southeast;119.466
+44;male;27.4;2;no;southwest;7.727
+57;male;34.01;0;no;northwest;113.567
+29;female;29.59;1;no;southeast;39.474
+21;male;35.53;0;no;southeast;15.325
+22;female;39.805;0;no;northeast;275.502
+41;female;32.965;0;no;northwest;657.102
+31;male;26.885;1;no;northeast;444.121
+45;female;38.285;0;no;northeast;793.529
+22;male;37.62;1;yes;southeast;371.652
+48;female;41.23;4;no;northwest;110.337
+37;female;34.8;2;yes;southwest;39.837
+45;male;22.895;2;yes;northwest;2.109.855
+57;female;31.16;0;yes;northwest;435.789
+56;female;27.2;0;no;southwest;11.073
+46;female;27.74;0;no;northwest;80.267
+55;female;26.98;0;no;northwest;110.826
+21;female;39.49;0;no;southeast;20.270
+53;female;24.795;1;no;northwest;1.094.213
+59;male;29.83;3;yes;northeast;301.849
+35;male;34.77;2;no;northwest;57.290
+64;female;31.3;2;yes;southwest;47.291
+28;female;37.62;1;no;southeast;37.669
+54;female;30.8;3;no;southwest;#¡VALOR!
+55;male;38.28;0;no;southeast;102.263
+56;male;19.95;0;yes;northeast;224.126
+38;male;19.3;0;yes;southwest;15.821
+41;female;31.6;0;no;southwest;6.186
+30;male;25.46;0;no;northeast;36.451
+18;female;30.115;0;no;northeast;213.448
+61;female;29.92;3;yes;southeast;309.422
+34;female;27.5;1;no;southwest;5.004
+20;male;28.025;1;yes;northwest;1.756.038
+19;female;28.4;1;no;southwest;2.332
+26;male;30.875;2;no;northwest;387.730
+29;male;27.94;0;no;southeast;28.671
+63;male;35.09;0;yes;southeast;470.555
+54;male;33.63;1;no;northwest;108.253
+55;female;29.7;2;no;southwest;11.881
+37;male;30.8;0;no;southwest;4.647
+21;female;35.72;0;no;northwest;24.047
+52;male;32.205;3;no;northeast;1.148.832
+60;male;28.595;0;no;northeast;3.026.000
+58;male;49.06;0;no;southeast;113.813
+29;female;27.94;1;yes;southeast;191.078
+49;female;27.17;0;no;southeast;86.013
+37;female;23.37;2;no;northwest;66.864
+44;male;37.1;2;no;southwest;7.740
+18;male;23.75;0;no;northeast;17.056
+20;female;28.975;0;no;northwest;225.748
+44;male;31.35;1;yes;northeast;395.565
+47;female;33.915;3;no;northwest;1.011.501
+26;female;28.785;0;no;northeast;338.540
+19;female;28.3;0;yes;southwest;#¡VALOR!
+52;female;37.4;0;no;southwest;9.635
+32;female;17.765;2;yes;northwest;327.342
+38;male;34.7;2;no;southwest;6.082
+59;female;26.505;0;no;northeast;1.281.544
+61;female;22.04;0;no;northeast;136.164
+53;female;35.9;2;no;southwest;11.164
+19;male;25.555;0;no;northwest;163.256
+20;female;28.785;0;no;northeast;245.721
+22;female;28.05;0;no;southeast;21.557
+19;male;34.1;0;no;southwest;1.261
+22;male;25.175;0;no;northwest;204.569
+54;female;31.9;3;no;southeast;2.732.273
+22;female;36;0;no;southwest;2.167
+34;male;22.42;2;no;northeast;2.737.590
+26;male;32.49;1;no;northeast;34.905
+34;male;25.3;2;yes;southeast;18.972
+29;male;29.735;2;no;northwest;18.158
+30;male;28.69;3;yes;northwest;207.460
+29;female;38.83;3;no;southeast;51.383
+46;male;30.495;3;yes;northwest;4.072.055
+51;female;37.73;1;no;southeast;98.776
+53;female;37.43;1;no;northwest;109.597
+19;male;28.4;1;no;southwest;1.843
+35;male;24.13;1;no;northwest;51.252
+48;male;29.7;0;no;southeast;7.790
+32;female;37.145;3;no;northeast;633.434
+42;female;23.37;0;yes;northeast;199.647
+40;female;25.46;1;no;northeast;70.772
+44;male;39.52;0;no;northwest;69.487
+48;male;24.42;0;yes;southeast;212.237
+18;male;25.175;0;yes;northeast;1.551.818
+30;male;35.53;0;yes;southeast;369.503
+50;female;27.83;3;no;southeast;1.974.938
+42;female;26.6;0;yes;northwest;21.349
+18;female;36.85;0;yes;southeast;361.495
+54;male;39.6;1;no;southwest;10.451
+32;female;29.8;2;no;southwest;5.152
+37;male;29.64;0;no;northwest;50.281
+47;male;28.215;4;no;northeast;1.040.709
+20;female;37;5;no;southwest;#¡VALOR!
+32;female;33.155;3;no;northwest;612.880
+19;female;31.825;1;no;northwest;271.928
+27;male;18.905;3;no;northeast;482.790
+63;male;41.47;0;no;southeast;134.054
+49;male;30.3;0;no;southwest;#¡VALOR!
+18;male;15.96;0;no;northeast;16.948
+35;female;34.8;1;no;southwest;5.246
+24;female;33.345;0;no;northwest;285.544
+63;female;37.7;0;yes;southwest;#¡VALOR!
+38;male;27.835;2;no;northwest;645.586
+54;male;29.2;1;no;southwest;10.436
+46;female;28.9;2;no;southwest;8.823
+41;female;33.155;3;no;northeast;853.829
+58;male;28.595;0;no;northwest;1.173.588
+18;female;38.28;0;no;southeast;16.318
+22;male;19.95;3;no;northeast;40.054
+44;female;26.41;0;no;northwest;74.195
+44;male;30.69;2;no;southeast;77.314
+36;male;41.895;3;yes;northeast;4.375.334
+26;female;29.92;2;no;southeast;39.820
+30;female;30.9;3;no;southwest;5.326
+41;female;32.2;1;no;southwest;6.776
+29;female;32.11;2;no;northwest;49.229
+61;male;31.57;0;no;southeast;125.576
+36;female;26.2;0;no;southwest;4.884
+25;male;25.74;0;no;southeast;21.377
+56;female;26.6;1;no;northwest;12.044
+18;male;34.43;0;no;southeast;11.375
+19;male;30.59;0;no;northwest;16.396
+39;female;32.8;0;no;southwest;5.650
+45;female;28.6;2;no;southeast;8.517
+51;female;18.05;0;no;northwest;96.443
+64;female;39.33;0;no;northeast;149.015
+19;female;32.11;0;no;northwest;21.307
+48;female;32.23;1;no;southeast;88.712
+60;female;24.035;0;no;northwest;1.301.221
+27;female;36.08;0;yes;southeast;371.339
+46;male;22.3;0;no;southwest;7.147
+28;female;28.88;1;no;northeast;43.377
+59;male;26.4;0;no;southeast;11.743
+35;male;27.74;2;yes;northeast;209.841
+63;female;31.8;0;no;southwest;13.881
+40;male;41.23;1;no;northeast;66.101
+20;male;33;1;no;southwest;#¡VALOR!
+40;male;30.875;4;no;northwest;816.272
+24;male;28.5;2;no;northwest;3.538
+34;female;26.73;1;no;southeast;50.028
+45;female;30.9;2;no;southwest;8.520
+41;female;37.1;2;no;southwest;7.372
+53;female;26.6;0;no;northwest;10.356
+27;male;23.1;0;no;southeast;2.484
+26;female;29.92;1;no;southeast;33.930
+24;female;23.21;0;no;southeast;2.508.177
+34;female;33.7;1;no;southwest;5.012
+53;female;33.25;0;no;northeast;105.649
+32;male;30.8;3;no;southwest;5.254
+19;male;34.8;0;yes;southwest;34.780
+42;male;24.64;0;yes;southeast;195.155
+55;male;33.88;3;no;southeast;119.872
+28;male;38.06;0;no;southeast;26.895
+58;female;41.91;0;no;southeast;2.422.734
+41;female;31.635;1;no;northeast;735.818
+47;male;25.46;2;no;northeast;92.253
+42;female;36.195;1;no;northwest;744.364
+59;female;27.83;3;no;southeast;140.013
+19;female;17.8;0;no;southwest;1.728
+59;male;27.5;1;no;southwest;12.334
+39;male;24.51;2;no;northwest;67.102
+40;female;22.22;2;yes;southeast;194.443
+18;female;26.73;0;no;southeast;16.158
+31;male;38.39;2;no;southeast;44.632
+19;male;29.07;0;yes;northwest;173.527
+44;male;38.06;1;no;southeast;71.527
+23;female;36.67;2;yes;northeast;385.116
+33;female;22.135;1;no;northeast;535.407
+55;female;26.8;1;no;southwest;3.516.013
+40;male;35.3;3;no;southwest;7.197
+63;female;27.74;0;yes;northeast;295.232
+54;male;30.02;0;no;northwest;2.447.648
+60;female;38.06;0;no;southeast;126.487
+24;male;35.86;0;no;southeast;19.869
+19;male;20.9;1;no;southwest;1.832
+29;male;28.975;1;no;northeast;404.056
+18;male;17.29;2;yes;northeast;128.295
+63;female;32.2;2;yes;southwest;47.305
+54;male;34.21;2;yes;southeast;442.607
+27;male;30.3;3;no;southwest;4.261
+50;male;31.825;0;yes;northeast;4.109.716
+55;female;25.365;3;no;northeast;1.304.733
+56;male;33.63;0;yes;northwest;439.212
+38;female;40.15;0;no;southeast;54.010
+51;male;24.415;4;no;northwest;1.152.010
+19;male;31.92;0;yes;northwest;337.503
+58;female;25.2;0;no;southwest;#¡VALOR!
+20;female;26.84;1;yes;southeast;170.853
+52;male;24.32;3;yes;northeast;248.698
+19;male;36.955;0;yes;northwest;3.621.941
+53;female;38.06;3;no;southeast;2.046.300
+46;male;42.35;3;yes;southeast;461.511
+40;male;19.8;1;yes;southeast;17.180
+59;female;32.395;3;no;northeast;1.459.063
+45;male;30.2;1;no;southwest;7.441
+49;male;25.84;1;no;northeast;92.825
+18;male;29.37;1;no;southeast;17.194
+50;male;34.2;2;yes;southwest;42.857
+41;male;37.05;2;no;northwest;72.657
+50;male;27.455;1;no;northeast;961.766
+25;male;27.55;0;no;northwest;25.232
+47;female;26.6;2;no;northeast;9.716
+19;male;20.615;2;no;northwest;280.370
+22;female;24.3;0;no;southwest;2.150
+59;male;31.79;2;no;southeast;129.288
+51;female;21.56;1;no;southeast;98.551
+40;female;28.12;1;yes;northeast;223.316
+54;male;40.565;3;yes;northeast;4.854.918
+30;male;27.645;1;no;northeast;423.713
+55;female;32.395;1;no;northeast;1.187.910
+52;female;31.2;0;no;southwest;#¡VALOR!
+46;male;26.62;1;no;southeast;77.421
+46;female;48.07;2;no;northeast;94.329
+63;female;26.22;0;no;northwest;142.562
+59;female;36.765;1;yes;northeast;4.789.679
+52;male;26.4;3;no;southeast;2.599.282
+28;female;33.4;0;no;southwest;3.172
+29;male;29.64;1;no;northeast;2.027.781
+25;male;45.54;2;yes;southeast;421.122
+22;female;28.82;0;no;southeast;21.568
+25;male;26.8;3;no;southwest;3.906
+18;male;22.99;0;no;northeast;17.046
+19;male;27.7;0;yes;southwest;16.298
+47;male;25.41;1;yes;southeast;219.787
+31;male;34.39;3;yes;northwest;387.464
+48;female;28.88;1;no;northwest;92.495
+36;male;27.55;3;no;northeast;67.467
+53;female;22.61;3;yes;northeast;248.734
+56;female;37.51;2;no;southeast;122.655
+28;female;33;2;no;southeast;4.349
+57;female;38;2;no;southwest;12.646
+29;male;33.345;2;no;northwest;194.424
+28;female;27.5;2;no;southwest;2.017.767
+30;female;33.33;1;no;southeast;41.510
+58;male;34.865;0;no;northeast;1.194.459
+41;female;33.06;2;no;northwest;77.492
+50;male;26.6;0;no;southwest;8.444
+19;female;24.7;0;no;southwest;1.737
+43;male;35.97;3;yes;southeast;421.245
+49;male;35.86;0;no;southeast;81.244
+27;female;31.4;0;yes;southwest;34.839
+52;male;33.25;0;no;northeast;97.228
+50;male;32.205;0;no;northwest;883.526
+54;male;32.775;0;no;northeast;1.043.507
+44;female;27.645;0;no;northwest;742.119
+32;male;37.335;1;no;northeast;466.761
+34;male;25.27;1;no;northwest;48.948
+26;female;29.64;4;no;northeast;2.467.166
+34;male;30.8;0;yes;southwest;#¡VALOR!
+57;male;40.945;0;no;northeast;1.156.630
+29;male;27.2;0;no;southwest;2.866
+40;male;34.105;1;no;northeast;660.021
+27;female;23.21;1;no;southeast;35.619
+45;male;36.48;2;yes;northwest;427.605
+64;female;33.8;1;yes;southwest;#¡VALOR!
+52;male;36.7;0;no;southwest;9.145
+61;female;36.385;1;yes;northeast;4.851.756
+52;male;27.36;0;yes;northwest;243.936
+61;female;31.16;0;no;northwest;134.290
+56;female;28.785;0;no;northeast;1.165.838
+43;female;35.72;2;no;northeast;1.914.458
+64;male;34.5;0;no;southwest;13.823
+60;male;25.74;0;no;southeast;121.426
+62;male;27.55;1;no;northwest;139.377
+50;male;32.3;1;yes;northeast;41.919
+46;female;27.72;1;no;southeast;82.326
+24;female;27.6;0;no;southwest;1.895.522
+62;male;30.02;0;no;northwest;133.521
+60;female;27.55;0;no;northeast;132.171
+63;male;36.765;0;no;northeast;1.398.185
+49;female;41.47;4;no;southeast;109.772
+34;female;29.26;3;no;southeast;61.843
+33;male;35.75;2;no;southeast;48.900
+46;male;33.345;1;no;northeast;833.446
+36;female;29.92;1;no;southeast;54.780
+19;male;27.835;0;no;northwest;163.573
+57;female;23.18;0;no;northwest;118.306
+50;female;25.6;0;no;southwest;8.932
+30;female;27.7;0;no;southwest;3.554
+33;male;35.245;0;no;northeast;124.049
+18;female;38.28;0;no;southeast;1.413.304
+46;male;27.6;0;no;southwest;2.460.305
+46;male;43.89;3;no;southeast;89.441
+47;male;29.83;3;no;northwest;96.203
+23;male;41.91;0;no;southeast;18.373
+18;female;20.79;0;no;southeast;16.075
+48;female;32.3;2;no;northeast;10.043
+35;male;30.5;1;no;southwest;#¡VALOR!
+19;female;21.7;0;yes;southwest;13.845
+21;female;26.4;1;no;southwest;2.598
+21;female;21.89;2;no;southeast;31.805
+49;female;30.78;1;no;northeast;97.783
+56;female;32.3;3;no;northeast;13.430
+42;female;24.985;2;no;northwest;801.706
+44;male;32.015;2;no;northwest;811.627
+18;male;30.4;3;no;northeast;3.482
+61;female;21.09;0;no;northwest;134.150
+57;female;22.23;0;no;northeast;120.293
+42;female;33.155;1;no;northeast;763.942
+26;male;32.9;2;yes;southwest;36.085
+20;male;33.33;0;no;southeast;13.915
+23;female;28.31;0;yes;northwest;180.340
+39;female;24.89;3;yes;northeast;216.599
+24;male;40.15;0;yes;southeast;381.262
+64;female;30.115;3;no;northwest;1.645.571
+62;male;31.46;1;no;southeast;2.700.098
+27;female;17.955;2;yes;northeast;1.500.658
+55;male;30.685;0;yes;northeast;4.230.369
+55;male;33;0;no;southeast;2.078.149
+35;female;43.34;2;no;southeast;58.469
+44;male;22.135;2;no;northeast;830.254
+19;male;34.4;0;no;southwest;1.262
+58;female;39.05;0;no;southeast;118.564
+50;male;25.365;2;no;northwest;3.028.464
+26;female;22.61;0;no;northwest;31.768
+24;female;30.21;3;no;northwest;46.181
+48;male;35.625;4;no;northeast;1.073.687
+19;female;37.43;0;no;northwest;21.381
+48;male;31.445;1;no;northeast;896.406
+49;male;31.35;1;no;northeast;92.901
+46;female;32.3;2;no;northeast;9.411
+46;male;19.855;0;no;northwest;752.671
+43;female;34.4;3;no;southwest;8.522
+21;male;31.02;0;no;southeast;1.658.650
+64;male;25.6;2;no;southwest;14.988
+18;female;38.17;0;no;southeast;16.317
+51;female;20.6;0;no;southwest;9.265
+47;male;47.52;1;no;southeast;80.839
+64;female;32.965;0;no;northwest;1.469.267
+49;male;32.3;3;no;northwest;#¡VALOR!
+31;male;20.4;0;no;southwest;3.260
+52;female;38.38;2;no;northeast;113.969
+33;female;24.31;0;no;southeast;41.851
+47;female;23.6;1;no;southwest;8.540
+38;male;21.12;3;no;southeast;66.525
+32;male;30.03;1;no;southeast;40.745
+19;male;17.48;0;no;northwest;16.213
+44;female;20.235;1;yes;northeast;1.959.481
+26;female;17.195;2;yes;northeast;1.445.564
+25;male;23.9;5;no;southwest;5.080
+19;female;35.15;0;no;northwest;21.349
+43;female;35.64;1;no;southeast;73.457
+52;male;34.1;0;no;southeast;9.141
+36;female;22.6;2;yes;southwest;18.608
+64;male;39.16;1;no;southeast;144.183
+63;female;26.98;0;yes;northwest;289.505
+64;male;33.88;0;yes;southeast;468.893
+61;male;35.86;0;yes;southeast;465.991
+40;male;32.775;1;yes;northeast;3.912.533
+25;male;30.59;0;no;northeast;27.274
+48;male;30.2;2;no;southwest;#¡VALOR!
+45;male;24.31;5;no;southeast;97.889
+38;female;27.265;1;no;northeast;655.507
+18;female;29.165;0;no;northeast;7.323.735
+21;female;16.815;1;no;northeast;316.746
+27;female;30.4;3;no;northwest;188.048
+19;male;33.1;0;no;southwest;2.308.296
+29;female;20.235;2;no;northwest;490.641
+42;male;26.9;0;no;southwest;5.970
+60;female;30.5;0;no;southwest;12.638
+31;male;28.595;1;no;northwest;424.359
+60;male;33.11;3;no;southeast;139.198
+22;male;31.73;0;no;northeast;22.548
+35;male;28.9;3;no;southwest;5.927
+52;female;46.75;5;no;southeast;125.925
+26;male;29.45;0;no;northeast;28.973
+31;female;32.68;1;no;northwest;47.383
+33;female;33.5;0;yes;southwest;37.079
+18;male;43.01;0;no;southeast;11.494
+59;female;36.52;1;no;southeast;2.828.790
+56;male;26.695;1;yes;northwest;2.610.933
+45;female;33.1;0;no;southwest;7.345
+60;male;29.64;0;no;northeast;127.310
+56;female;25.65;0;no;northwest;114.540
+40;female;29.6;0;no;southwest;5.911
+35;male;38.6;1;no;southwest;4.762
+39;male;29.6;4;no;southwest;7.512
+30;male;24.13;1;no;northwest;40.322
+24;male;23.4;0;no;southwest;1.970
+20;male;29.735;0;no;northwest;176.953
+32;male;46.53;2;no;southeast;46.864
+59;male;37.4;0;no;southwest;217.970
+55;female;30.14;2;no;southeast;118.820
+57;female;30.495;0;no;northwest;1.184.078
+56;male;39.6;0;no;southwest;10.601
+40;female;33;3;no;southeast;#¡VALOR!
+49;female;36.63;3;no;southeast;103.815
+42;male;30;0;yes;southwest;22.144
+62;female;38.095;2;no;northeast;1.523.032
+56;male;25.935;0;no;northeast;1.116.542
+19;male;25.175;0;no;northwest;163.204
+30;female;28.38;1;yes;southeast;195.220
+60;female;28.7;1;no;southwest;13.225
+56;female;33.82;2;no;northwest;126.434
+28;female;24.32;1;no;northeast;232.889
+18;female;24.09;1;no;southeast;22.011
+27;male;32.67;0;no;southeast;24.970
+18;female;30.115;0;no;northeast;220.347
+19;female;29.8;0;no;southwest;1.744
+47;female;33.345;0;no;northeast;2.087.878
+54;male;25.1;3;yes;southwest;25.382
+61;male;28.31;1;yes;northwest;288.687
+24;male;28.5;0;yes;northeast;3.514.753
+25;male;35.625;0;no;northwest;253.439
+21;male;36.85;0;no;southeast;15.343
+23;male;32.56;0;no;southeast;18.243
+63;male;41.325;3;no;northwest;1.555.519
+49;male;37.51;2;no;southeast;93.047
+18;female;31.35;0;no;southeast;16.222
+51;female;39.5;1;no;southwest;9.880
+48;male;34.3;3;no;southwest;9.563
+31;female;31.065;0;no;northeast;434.702
+54;female;21.47;3;no;northwest;124.754
+19;male;28.7;0;no;southwest;1.254
+44;female;38.06;0;yes;southeast;4.888.514
+53;male;31.16;1;no;northwest;104.620
+19;female;32.9;0;no;southwest;1.749
+61;female;25.08;0;no;southeast;2.451.309
+18;female;25.08;0;no;northeast;21.965
+61;male;43.4;0;no;southwest;12.574
+21;male;25.7;4;yes;southwest;17.942
+20;male;27.93;0;no;northeast;19.670
+31;female;23.6;2;no;southwest;4.932
+45;male;28.7;2;no;southwest;8.028
+44;female;23.98;2;no;southeast;82.111
+62;female;39.2;0;no;southwest;#¡VALOR!
+29;male;34.4;0;yes;southwest;36.198
+43;male;26.03;0;no;northeast;68.374
+51;male;23.21;1;yes;southeast;222.181
+19;male;30.25;0;yes;southeast;325.483
+38;female;28.93;1;no;southeast;59.744
+37;male;30.875;3;no;northwest;679.686
+22;male;31.35;1;no;northwest;26.433
+21;male;23.75;2;no;northwest;30.771
+24;female;25.27;0;no;northeast;30.442
+57;female;28.7;0;no;southwest;#¡VALOR!
+56;male;32.11;1;no;northeast;117.630
+27;male;33.66;0;no;southeast;24.984
+51;male;22.42;0;no;northeast;93.613
+19;male;30.4;0;no;southwest;1.256
+39;male;28.3;1;yes;southwest;#¡VALOR!
+58;male;35.7;0;no;southwest;11.363
+20;male;35.31;1;no;southeast;2.772.429
+45;male;30.495;2;no;northwest;841.346
+35;female;31;1;no;southwest;5.241
+31;male;30.875;0;no;northeast;385.776
+50;female;27.36;0;no;northeast;2.565.658
+32;female;44.22;0;no;southeast;39.942
+51;female;33.915;0;no;northeast;986.630
+38;female;37.73;0;no;southeast;53.976
+42;male;26.07;1;yes;southeast;3.824.559
+18;female;33.88;0;no;southeast;1.148.263
+19;female;30.59;2;no;northwest;2.405.968
+51;female;25.8;1;no;southwest;9.861
+46;male;39.425;1;no;northeast;834.291
+18;male;25.46;0;no;northeast;17.080
+57;male;42.13;1;yes;southeast;486.755
+62;female;31.73;0;no;northeast;140.435
+59;male;29.7;2;no;southeast;12.926
+37;male;36.19;0;no;southeast;1.921.471
+64;male;40.48;0;no;southeast;138.311
+38;male;28.025;1;no;northeast;606.713
+33;female;38.9;3;no;southwest;5.972
+46;female;30.2;2;no;southwest;8.825
+46;female;28.05;1;no;southeast;82.331
+53;male;31.35;0;no;southeast;2.734.604
+34;female;38;3;no;southwest;6.196
+20;female;31.79;2;no;southeast;30.564
+63;female;36.3;0;no;southeast;13.887
+54;female;47.41;0;yes;southeast;6.377.043
+54;male;30.21;0;no;northwest;102.315
+49;male;25.84;2;yes;northwest;238.072
+28;male;35.435;0;no;northeast;326.885
+54;female;46.7;2;no;southwest;11.538
+25;female;28.595;0;no;northeast;321.362
+43;female;46.2;0;yes;southeast;45.863
+63;male;30.8;0;no;southwest;13.391
+32;female;28.93;0;no;southeast;39.729
+62;male;21.4;0;no;southwest;12.957
+52;female;31.73;2;no;northwest;111.877
+25;female;41.325;0;no;northeast;1.787.890
+28;male;23.8;2;no;southwest;3.848
+46;male;33.44;1;no;northeast;83.346
+34;male;34.21;0;no;southeast;39.352
+35;female;34.105;3;yes;northwest;3.998.343
+19;male;35.53;0;no;northwest;16.464
+46;female;19.95;2;no;northwest;91.938
+54;female;32.68;0;no;northeast;109.239
+27;male;30.5;0;no;southwest;2.494
+50;male;44.77;1;no;southeast;90.587
+18;female;32.12;2;no;southeast;28.013
+19;female;30.495;0;no;northwest;212.843
+38;female;40.565;1;no;northwest;637.356
+41;male;30.59;2;no;northwest;72.567
+49;female;31.9;5;no;southwest;11.553
+48;male;40.565;2;yes;northwest;4.570.202
+31;female;29.1;0;no;southwest;3.761
+18;female;37.29;1;no;southeast;22.194
+30;female;43.12;2;no;southeast;47.536
+62;female;36.86;1;no;northeast;3.162.000
+57;female;34.295;2;no;northeast;1.322.406
+58;female;27.17;0;no;northwest;122.229
+22;male;26.84;0;no;southeast;16.650
+31;female;38.095;1;yes;northeast;5.857.107
+52;male;30.2;1;no;southwest;#¡VALOR!
+25;female;23.465;0;no;northeast;320.649
+59;male;25.46;1;no;northeast;129.140
+19;male;30.59;0;no;northwest;16.396
+39;male;45.43;2;no;southeast;63.563
+32;female;23.65;1;no;southeast;1.762.624
+19;male;20.7;0;no;southwest;1.243
+33;female;28.27;1;no;southeast;47.796
+21;male;20.235;3;no;northeast;386.121
+34;female;30.21;1;yes;northwest;439.439
+61;female;35.91;0;no;northeast;136.356
+38;female;30.69;1;no;southeast;59.768
+58;female;29;0;no;southwest;11.842
+47;male;19.57;1;no;northwest;84.281
+20;male;31.13;2;no;southeast;25.665
+21;female;21.85;1;yes;northeast;153.591
+41;male;40.26;0;no;southeast;57.092
+46;female;33.725;1;no;northeast;882.399
+42;female;29.48;2;no;southeast;76.403
+34;female;33.25;1;no;northeast;55.948
+43;male;32.6;2;no;southwest;7.442
+52;female;37.525;2;no;northwest;3.347.197
+18;female;39.16;0;no;southeast;16.330
+51;male;31.635;0;no;northwest;917.414
+56;female;25.3;0;no;southwest;11.071
+64;female;39.05;3;no;southeast;160.851
+19;female;28.31;0;yes;northwest;174.690
+51;female;34.1;0;no;southeast;9.284
+27;female;25.175;0;no;northeast;355.862
+59;female;23.655;0;yes;northwest;2.567.878
+28;male;26.98;2;no;northeast;44.351
+30;male;37.8;2;yes;southwest;39.241
+47;female;29.37;1;no;southeast;85.477
+38;female;34.8;2;no;southwest;6.572
+18;female;33.155;0;no;northeast;220.770
+34;female;19;3;no;northeast;6.753
+20;female;33;0;no;southeast;#¡VALOR!
+47;female;36.63;1;yes;southeast;429.699
+56;female;28.595;0;no;northeast;1.165.812
+49;male;25.6;2;yes;southwest;23.307
+19;female;33.11;0;yes;southeast;344.399
+55;female;37.1;0;no;southwest;10.714
+30;male;31.4;1;no;southwest;3.659
+37;male;34.1;4;yes;southwest;40.182
+49;female;21.3;1;no;southwest;#¡VALOR!
+18;male;33.535;0;yes;northeast;3.461.784
+59;male;28.785;0;no;northwest;1.212.961
+29;female;26.03;0;no;northwest;37.365
+36;male;28.88;3;no;northeast;67.486
+33;male;42.46;1;no;southeast;1.132.671
+58;male;38;0;no;southwest;11.366
+44;female;38.95;0;yes;northwest;429.835
+53;male;36.1;1;no;southwest;10.086
+24;male;29.3;0;no;southwest;1.978
+29;female;35.53;0;no;southeast;33.667
+40;male;22.705;2;no;northeast;717.336
+51;male;39.7;1;no;southwest;9.391
+64;male;38.19;0;no;northeast;144.109
+19;female;24.51;1;no;northwest;27.091
+35;female;38.095;2;no;northeast;2.491.505
+39;male;26.41;0;yes;northeast;201.493
+56;male;33.66;4;no;southeast;129.492
+33;male;42.4;5;no;southwest;6.666
+42;male;28.31;3;yes;northwest;3.278.746
+61;male;33.915;0;no;northeast;1.314.386
+23;female;34.96;3;no;northwest;44.666
+43;male;35.31;2;no;southeast;1.880.615
+48;male;30.78;3;no;northeast;101.411
+39;male;26.22;1;no;northwest;61.236
+40;female;23.37;3;no;northeast;82.523
+18;male;28.5;0;no;northeast;1.712
+58;female;32.965;0;no;northeast;1.243.095
+49;female;42.68;2;no;southeast;98.009
+53;female;39.6;1;no;southeast;10.580
+48;female;31.13;0;no;southeast;82.806
+45;female;36.3;2;no;southeast;8.528
+59;female;35.2;0;no;southeast;12.245
+52;female;25.3;2;yes;southeast;24.667
+26;female;42.4;1;no;southwest;3.410
+27;male;33.155;2;no;northwest;405.871
+48;female;35.91;1;no;northeast;2.639.226
+57;female;28.785;4;no;northeast;1.439.440
+37;male;46.53;3;no;southeast;64.356
+57;female;23.98;1;no;southeast;2.219.244
+32;female;31.54;1;no;northeast;51.486
+18;male;33.66;0;no;southeast;11.364
+64;female;22.99;0;yes;southeast;270.379
+43;male;38.06;2;yes;southeast;425.604
+49;male;28.7;1;no;southwest;8.703
+40;female;32.775;2;yes;northwest;4.000.333
+62;male;32.015;0;yes;northeast;4.571.021
+40;female;29.81;1;no;southeast;65.002
+30;male;31.57;3;no;southeast;48.376
+29;female;31.16;0;no;northeast;39.436
+36;male;29.7;0;no;southeast;4.400
+41;female;31.02;0;no;southeast;61.853
+44;female;43.89;2;yes;southeast;462.010
+45;male;21.375;0;no;northwest;722.279
+55;female;40.81;3;no;southeast;124.858
+60;male;31.35;3;yes;northwest;461.305
+56;male;36.1;3;no;southwest;12.364
+49;female;23.18;2;no;northwest;101.568
+21;female;17.4;1;no;southwest;2.585
+19;male;20.3;0;no;southwest;#¡VALOR!
+39;male;35.3;2;yes;southwest;#¡VALOR!
+53;male;24.32;0;no;northwest;98.635
+33;female;18.5;1;no;southwest;4.766
+53;male;26.41;2;no;northeast;112.444
+42;male;26.125;2;no;northeast;772.965
+40;male;41.69;0;no;southeast;54.387
+47;female;24.1;1;no;southwest;2.623.658
+27;male;31.13;1;yes;southeast;348.065
+21;male;27.36;0;no;northeast;21.041
+47;male;36.2;1;no;southwest;8.068
+20;male;32.395;1;no;northwest;236.223
+24;male;23.655;0;no;northwest;235.297
+27;female;34.8;1;no;southwest;3.578
+26;female;40.185;0;no;northwest;320.125
+53;female;32.3;2;no;northeast;2.918.648
+41;male;35.75;1;yes;southeast;402.736
+56;male;33.725;0;no;northwest;1.097.625
+23;female;39.27;2;no;southeast;35.006
+21;female;34.87;0;no;southeast;20.206
+50;female;44.745;0;no;northeast;954.170
+53;male;41.47;0;no;southeast;95.043
+34;female;26.41;1;no;northwest;53.853
+47;female;29.545;1;no;northwest;893.093
+33;female;32.9;2;no;southwest;5.375
+51;female;38.06;0;yes;southeast;444.004
+49;male;28.69;3;no;northwest;102.644
+31;female;30.495;3;no;northeast;611.323
+36;female;27.74;0;no;northeast;54.690
+18;male;35.2;1;no;southeast;#¡VALOR!
+50;female;23.54;2;no;southeast;101.072
+43;female;30.685;2;no;northwest;831.084
+20;male;40.47;0;no;northeast;19.845
+24;female;22.6;0;no;southwest;2.458
+60;male;28.9;0;no;southwest;12.147
+49;female;22.61;1;no;northwest;95.670
+60;male;24.32;1;no;northwest;131.126
+51;female;36.67;2;no;northwest;108.481
+58;female;33.44;0;no;northwest;122.316
+51;female;40.66;0;no;northeast;98.757
+53;male;36.6;3;no;southwest;11.265
+62;male;37.4;0;no;southwest;12.979
+19;male;35.4;0;no;southwest;1.263
+50;female;27.075;1;no;northeast;1.010.613
+30;female;39.05;3;yes;southeast;409.324
+41;male;28.405;1;no;northwest;666.469
+29;female;21.755;1;yes;northeast;1.665.772
+18;female;40.28;0;no;northeast;22.176
+41;female;36.08;1;no;southeast;67.814
+35;male;24.42;3;yes;southeast;193.620
+53;male;21.4;1;no;southwest;10.065
+24;female;30.1;3;no;southwest;4.235
+48;female;27.265;1;no;northeast;944.725
+59;female;32.1;3;no;southwest;14.007
+49;female;34.77;1;no;northwest;95.839
+37;female;38.39;0;yes;southeast;404.190
+26;male;23.7;2;no;southwest;3.484
+23;male;31.73;3;yes;northeast;361.891
+29;male;35.5;2;yes;southwest;4.458.546
+45;male;24.035;2;no;northeast;860.448
+27;male;29.15;0;yes;southeast;182.465
+53;male;34.105;0;yes;northeast;4.325.442
+31;female;26.62;0;no;southeast;37.578
+50;male;26.41;0;no;northwest;88.272
+50;female;30.115;1;no;northwest;991.036
+34;male;27;2;no;southwest;1.173.785
+19;male;21.755;0;no;northwest;162.728
+47;female;36;1;no;southwest;8.557
+28;male;30.875;0;no;northwest;306.251
+37;female;26.4;0;yes;southeast;19.539
+21;male;28.975;0;no;northwest;190.636
+64;male;37.905;0;no;northwest;1.421.054
+58;female;22.77;0;no;southeast;118.338
+24;male;33.63;4;no;northeast;1.712.843
+31;male;27.645;2;no;northeast;503.127
+39;female;22.8;3;no;northeast;7.986
+47;female;27.83;0;yes;southeast;230.654
+30;male;37.43;3;no;northeast;54.287
+18;male;38.17;0;yes;southeast;363.078
+22;female;34.58;2;no;northeast;39.258
+23;male;35.2;1;no;southwest;2.417
+33;male;27.1;1;yes;southwest;19.041
+27;male;26.03;0;no;northeast;30.708
+45;female;25.175;2;no;northeast;909.507
+57;female;31.825;0;no;northwest;1.184.262
+47;male;32.3;1;no;southwest;8.063
+42;female;29;1;no;southwest;7.051
+64;female;39.7;0;no;southwest;14.319
+38;female;19.475;2;no;northwest;693.324
+61;male;36.1;3;no;southwest;2.794.129
+53;female;26.7;2;no;southwest;#¡VALOR!
+44;female;36.48;0;no;northeast;1.279.721
+19;female;28.88;0;yes;northwest;177.485
+41;male;34.2;2;no;northwest;7.262
+51;male;33.33;3;no;southeast;105.605
+40;male;32.3;2;no;northwest;6.987
+45;male;39.805;0;no;northeast;744.840
+35;male;34.32;3;no;southeast;59.344
+53;male;28.88;0;no;northwest;98.698
+30;male;24.4;3;yes;southwest;18.259
+18;male;41.14;0;no;southeast;11.468
+51;male;35.97;1;no;southeast;93.862
+50;female;27.6;1;yes;southwest;24.520
+31;female;29.26;1;no;southeast;43.505
+35;female;27.7;3;no;southwest;6.414
+60;male;36.955;0;no;northeast;1.274.117
+21;male;36.86;0;no;northwest;19.173
+29;male;22.515;3;no;northeast;520.958
+62;female;29.92;0;no;southeast;134.580
+39;female;41.8;0;no;southeast;5.662
+19;male;27.6;0;no;southwest;1.252
+22;female;23.18;0;no;northeast;27.319
+53;male;20.9;0;yes;southeast;21.196
+39;female;31.92;2;no;northwest;72.095
+27;male;28.5;0;yes;northwest;18.311
+30;male;44.22;2;no;southeast;42.662
+30;female;22.895;1;no;northeast;471.952
+58;female;33.1;0;no;southwest;11.848
+33;male;24.795;0;yes;northeast;1.790.453
+42;female;26.18;1;no;southeast;70.467
+64;female;35.97;0;no;southeast;143.138
+21;male;22.3;1;no;southwest;#¡VALOR!
+18;female;42.24;0;yes;southeast;387.927
+23;male;26.51;0;no;southeast;18.159
+45;female;35.815;0;no;northwest;773.186
+40;female;41.42;1;no;northwest;2.847.673
+19;female;36.575;0;no;northwest;213.688
+18;male;30.14;0;no;southeast;11.315
+25;male;25.84;1;no;northeast;33.098
+46;female;30.8;3;no;southwest;#¡VALOR!
+33;female;42.94;3;no;northwest;63.610
+54;male;21.01;2;no;southeast;110.137
+28;male;22.515;2;no;northeast;442.889
+36;male;34.43;2;no;southeast;55.843
+20;female;31.46;0;no;southeast;18.779
+24;female;24.225;0;no;northwest;284.276
+23;male;37.1;3;no;southwest;3.598
+47;female;26.125;1;yes;northeast;2.340.131
+33;female;35.53;0;yes;northwest;5.513.540
+45;male;33.7;1;no;southwest;7.446
+26;male;17.67;0;no;northwest;26.809
+18;female;31.13;0;no;southeast;16.219
+44;female;29.81;2;no;southeast;82.192
+60;male;24.32;0;no;northwest;125.236
+64;female;31.825;2;no;northeast;1.606.908
+56;male;31.79;2;yes;southeast;438.139
+36;male;28.025;1;yes;northeast;2.077.363
+41;male;30.78;3;yes;northeast;395.974
+39;male;21.85;1;no;northwest;61.175
+63;male;33.1;0;no;southwest;13.394
+36;female;25.84;0;no;northwest;52.664
+28;female;23.845;2;no;northwest;471.974
+58;male;34.39;0;no;northwest;117.439
+36;male;33.82;1;no;northwest;53.775
+42;male;35.97;2;no;southeast;71.603
+36;male;31.5;0;no;southwest;4.402
+56;female;28.31;0;no;northeast;116.577
+35;female;23.465;2;no;northeast;640.229
+59;female;31.35;0;no;northwest;126.222
+21;male;31.1;0;no;southwest;1.526
+59;male;24.7;0;no;northeast;12.324
+23;female;32.78;2;yes;southeast;360.210
+57;female;29.81;0;yes;southeast;275.339
+53;male;30.495;0;no;northeast;1.007.206
+60;female;32.45;0;yes;southeast;450.090
+51;female;34.2;1;no;southwest;9.873
+23;male;50.38;1;no;southeast;24.381
+27;female;24.1;0;no;southwest;2.974
+55;male;32.775;0;no;northwest;1.060.163
+37;female;30.78;0;yes;northeast;372.702
+61;male;32.3;2;no;northwest;#¡VALOR!
+46;female;35.53;0;yes;northeast;421.117
+53;female;23.75;2;no;northeast;117.297
+49;female;23.845;3;yes;northeast;2.410.691
+20;female;29.6;0;no;southwest;1.875
+48;female;33.11;0;yes;southeast;409.742
+25;male;24.13;0;yes;northwest;158.180
+25;female;32.23;1;no;southeast;1.821.816
+57;male;28.1;0;no;southwest;10.965
+37;female;47.6;2;yes;southwest;46.114
+38;female;28;3;no;southwest;7.151
+55;female;33.535;2;no;northwest;1.226.969
+36;female;19.855;0;no;northeast;545.805
+51;male;25.4;0;no;southwest;8.782
+40;male;29.9;2;no;southwest;6.600
+18;male;37.29;0;no;southeast;11.414
+57;male;43.7;1;no;southwest;#¡VALOR!
+61;male;23.655;0;no;northeast;1.312.960
+25;female;24.3;3;no;southwest;4.392
+50;male;36.2;0;no;southwest;8.458
+26;female;29.48;1;no;southeast;33.924
+42;male;24.86;0;no;southeast;59.669
+43;male;30.1;1;no;southwest;6.849
+44;male;21.85;3;no;northeast;88.911
+23;female;28.12;0;no;northwest;26.901
+49;female;27.1;1;no;southwest;261.404
+33;male;33.44;5;no;southeast;66.538
+41;male;28.8;1;no;southwest;6.282
+37;female;29.5;2;no;southwest;6.312
+22;male;34.8;3;no;southwest;3.443
+23;male;27.36;1;no;northwest;27.891
+21;female;22.135;0;no;northeast;258.585
+51;female;37.05;3;yes;northeast;462.551
+25;male;26.695;4;no;northwest;487.798
+32;male;28.93;1;yes;southeast;197.197
+57;male;28.975;0;yes;northeast;2.721.844
+36;female;30.02;0;no;northwest;52.722
+22;male;39.5;0;no;southwest;1.683
+57;male;33.63;1;no;northwest;119.451
+64;female;26.885;0;yes;northwest;2.933.098
+36;female;29.04;4;no;southeast;72.438
+54;male;24.035;0;no;northeast;1.042.292
+47;male;38.94;2;yes;southeast;442.027
+62;male;32.11;0;no;northeast;135.550
+61;female;44;0;no;southwest;13.064
+43;female;20.045;2;yes;northeast;1.979.805
+19;male;25.555;1;no;northwest;222.156
+18;female;40.26;0;no;southeast;16.346
+19;female;22.515;0;no;northwest;211.734
+49;male;22.515;0;no;northeast;868.886
+60;male;40.92;0;yes;southeast;486.736
+26;male;27.265;3;no;northeast;466.129
+49;male;36.85;0;no;southeast;81.258
+60;female;35.1;0;no;southwest;12.645
+26;female;29.355;2;no;northeast;456.419
+27;male;32.585;3;no;northeast;484.692
+44;female;32.34;1;no;southeast;76.337
+63;male;39.8;3;no;southwest;15.170
+32;female;24.6;0;yes;southwest;17.496
+22;male;28.31;1;no;northwest;26.390
+18;male;31.73;0;yes;northeast;337.327
+59;female;26.695;3;no;northwest;1.438.271
+44;female;27.5;1;no;southwest;7.627
+33;male;24.605;2;no;northwest;525.751
+24;female;33.99;0;no;southeast;24.733
+43;female;26.885;0;yes;northwest;2.177.432
+45;male;22.895;0;yes;northeast;3.506.937
+61;female;28.2;0;no;southwest;13.042
+35;female;34.21;1;no;southeast;52.452
+62;female;25;0;no;southwest;13.451
+62;female;33.2;0;no;southwest;#¡VALOR!
+38;male;31;1;no;southwest;5.488
+34;male;35.815;0;no;northwest;432.041
+43;male;23.2;0;no;southwest;6.250
+50;male;32.11;2;no;northeast;2.533.333
+19;female;23.4;2;no;southwest;2.914
+57;female;20.1;1;no;southwest;12.032
+62;female;39.16;0;no;southeast;134.708
+41;male;34.21;1;no;southeast;62.898
+26;male;46.53;1;no;southeast;29.271
+39;female;32.5;1;no;southwest;6.238
+46;male;25.8;5;no;southwest;#¡VALOR!
+45;female;35.3;0;no;southwest;7.348
+32;male;37.18;2;no;southeast;46.734
+59;female;27.5;0;no;southwest;12.234
+44;male;29.735;2;no;northeast;3.210.866
+39;female;24.225;5;no;northwest;896.580
+18;male;26.18;2;no;southeast;23.040
+53;male;29.48;0;no;southeast;94.876
+18;male;23.21;0;no;southeast;11.219
+50;female;46.09;1;no;southeast;95.496
+18;female;40.185;0;no;northeast;221.747
+19;male;22.61;0;no;northwest;16.285
+62;male;39.93;0;no;southeast;129.829
+56;female;35.8;1;no;southwest;#¡VALOR!
+42;male;35.8;2;no;southwest;7.160
+37;male;34.2;1;yes;northeast;39.047
+42;male;31.255;0;no;northwest;635.878
+25;male;29.7;3;yes;southwest;19.933
+57;male;18.335;0;no;northeast;1.153.487
+51;male;42.9;2;yes;southeast;47.463
+30;female;28.405;1;no;northwest;452.718
+44;male;30.2;2;yes;southwest;38.999
+34;male;27.835;1;yes;northwest;2.000.963
+31;male;39.49;1;no;southeast;38.757
+54;male;30.8;1;yes;southeast;#¡VALOR!
+24;male;26.79;1;no;northwest;1.260.989
+43;male;34.96;1;yes;northeast;410.342
+48;male;36.67;1;no;northwest;2.846.892
+19;female;39.615;1;no;northwest;273.011
+29;female;25.9;0;no;southwest;3.353
+63;female;35.2;1;no;southeast;14.475
+46;male;24.795;3;no;northeast;950.057
+52;male;36.765;2;no;northwest;2.646.710
+35;male;27.1;1;no;southwest;4.746
+51;male;24.795;2;yes;northwest;2.396.738
+44;male;25.365;1;no;northwest;751.803
+21;male;25.745;2;no;northeast;327.987
+39;female;34.32;5;no;southeast;85.968
+50;female;28.16;3;no;southeast;107.026
+34;female;23.56;0;no;northeast;49.924
+22;female;20.235;0;no;northwest;252.782
+19;female;40.5;0;no;southwest;1.759
+26;male;35.42;0;no;southeast;23.226
+29;male;22.895;0;yes;northeast;1.613.876
+48;male;40.15;0;no;southeast;78.042
+26;male;29.15;1;no;southeast;29.029
+45;female;39.995;3;no;northeast;970.467
+36;female;29.92;0;no;southeast;48.890
+54;male;25.46;1;no;northeast;2.551.711
+34;male;21.375;0;no;northeast;450.034
+31;male;25.9;3;yes;southwest;19.200
+27;female;30.59;1;no;northeast;1.679.641
+20;male;30.115;5;no;northeast;491.506
+44;female;25.8;1;no;southwest;#¡VALOR!
+43;male;30.115;3;no;northwest;841.005
+45;female;27.645;1;no;northwest;2.834.019
+34;male;34.675;0;no;northeast;451.883
+24;female;20.52;0;yes;northeast;145.719
+26;female;19.8;1;no;southwest;#¡VALOR!
+38;female;27.835;2;no;northeast;714.486
+50;female;31.6;2;no;southwest;10.118
+38;male;28.27;1;no;southeast;54.845
+27;female;20.045;3;yes;northwest;1.642.049
+39;female;23.275;3;no;northeast;798.648
+39;female;34.1;3;no;southwest;7.419
+63;female;36.85;0;no;southeast;138.880
+33;female;36.29;3;no;northeast;65.518
+36;female;26.885;0;no;northwest;526.782
+30;male;22.99;2;yes;northwest;173.618
+24;male;32.7;0;yes;southwest;34.473
+24;male;25.8;0;no;southwest;#¡VALOR!
+48;male;29.6;0;no;southwest;2.123.218
+47;male;19.19;1;no;northeast;86.275
+29;male;31.73;2;no;northwest;44.334
+28;male;29.26;2;no;northeast;44.383
+47;male;28.215;3;yes;northwest;2.491.522
+25;male;24.985;2;no;northeast;2.324.147
+51;male;27.74;1;no;northeast;99.577
+48;female;22.8;0;no;southwest;8.269
+43;male;20.13;2;yes;southeast;187.677
+61;female;33.33;4;no;southeast;3.658.028
+48;male;32.3;1;no;northwest;8.765
+38;female;27.6;0;no;southwest;5.384
+59;male;25.46;0;no;northwest;121.250
+19;female;24.605;1;no;northwest;270.924
+26;female;34.2;2;no;southwest;3.988
+54;female;35.815;3;no;northwest;1.249.529
+21;female;32.68;2;no;northwest;2.601.895
+51;male;37;0;no;southwest;8.799
+22;female;31.02;3;yes;southeast;355.956
+47;male;36.08;1;yes;southeast;422.111
+18;male;23.32;1;no;southeast;17.110
+47;female;45.32;1;no;southeast;85.699
+21;female;34.6;0;no;southwest;2.020
+19;male;26.03;1;yes;northwest;164.509
+23;male;18.715;0;no;northwest;2.159.538
+54;male;31.6;0;no;southwest;9.850
+37;female;17.29;2;no;northeast;68.780
+46;female;23.655;1;yes;northwest;2.167.728
+55;female;35.2;0;yes;southeast;44.424
+30;female;27.93;0;no;northeast;41.375
+18;male;21.565;0;yes;northeast;1.374.787
+61;male;38.38;0;no;northwest;129.501
+54;female;23;3;no;southwest;12.094
+22;male;37.07;2;yes;southeast;374.844
+45;female;30.495;1;yes;northwest;3.972.552
+22;male;28.88;0;no;northeast;22.508
+19;male;27.265;2;no;northwest;2.249.366
+35;female;28.025;0;yes;northwest;2.023.485
+18;male;23.085;0;no;northeast;170.470
+20;male;30.685;0;yes;northeast;3.347.582
+28;female;25.8;0;no;southwest;3.161
+55;male;35.245;1;no;northeast;1.139.407
+43;female;24.7;2;yes;northwest;#¡VALOR!
+43;female;25.08;0;no;northeast;73.250
+22;male;52.58;1;yes;southeast;445.014
+25;female;22.515;1;no;northwest;359.417
+49;male;30.9;0;yes;southwest;39.728
+44;female;36.955;1;no;northwest;802.314
+64;male;26.41;0;no;northeast;143.946
+49;male;29.83;1;no;northeast;92.880
+47;male;29.8;3;yes;southwest;25.309
+27;female;21.47;0;no;northwest;33.535
+55;male;27.645;0;no;northwest;1.059.450
+48;female;28.9;0;no;southwest;8.278
+45;female;31.79;0;no;southeast;1.792.930
+24;female;39.49;0;no;southeast;24.810
+32;male;33.82;1;no;northwest;44.627
+24;male;32.01;0;no;southeast;19.816
+57;male;27.94;1;no;southeast;115.542
+59;male;41.14;1;yes;southeast;489.702
+36;male;28.595;3;no;northwest;654.820
+29;female;25.6;4;no;southwest;5.709
+42;female;25.3;1;no;southwest;7.045
+48;male;37.29;2;no;southeast;89.782
+39;male;42.655;0;no;northeast;575.741
+63;male;21.66;1;no;northwest;143.499
+54;female;31.9;1;no;southeast;10.929
+37;male;37.07;1;yes;southeast;398.717
+63;male;31.445;0;no;northeast;1.397.446
+21;male;31.255;0;no;northwest;190.953
+54;female;28.88;2;no;northeast;120.967
+60;female;18.335;0;no;northeast;1.320.429
+32;female;29.59;1;no;southeast;45.628
+47;female;32;1;no;southwest;8.551
+21;male;26.03;0;no;northeast;21.023
+28;male;31.68;0;yes;southeast;346.721
+63;male;33.66;3;no;southeast;151.615
+18;male;21.78;2;no;southeast;1.188.405
+32;male;27.835;1;no;northwest;445.440
+38;male;19.95;1;no;northwest;58.559
+32;male;31.5;1;no;southwest;4.076
+62;female;30.495;2;no;northwest;1.501.976
+39;female;18.3;5;yes;southwest;#¡VALOR!
+55;male;28.975;0;no;northeast;1.079.635
+57;male;31.54;0;no;northwest;113.532
+52;male;47.74;1;no;southeast;97.489
+56;male;22.1;0;no;southwest;10.577
+47;male;36.19;0;yes;southeast;416.761
+55;female;29.83;0;no;northeast;112.865
+23;male;32.7;3;no;southwest;#¡VALOR!
+22;female;30.4;0;yes;northwest;33.908
+50;female;33.7;4;no;southwest;11.299
+18;female;31.35;4;no;northeast;45.612
+51;female;34.96;2;yes;northeast;446.412
+22;male;33.77;0;no;southeast;16.746
+52;female;30.875;0;no;northeast;2.304.557
+25;female;33.99;1;no;southeast;32.271
+33;female;19.095;2;yes;northeast;1.677.630
+53;male;28.6;3;no;southwest;11.253
+29;male;38.94;1;no;southeast;34.714
+58;male;36.08;0;no;southeast;113.633
+37;male;29.8;0;no;southwest;2.042.060
+54;female;31.24;0;no;southeast;103.389
+49;female;29.925;0;no;northwest;898.816
+50;female;26.22;2;no;northwest;104.939
+26;male;30;1;no;southwest;2.904
+45;male;20.35;3;no;southeast;86.054
+54;female;32.3;1;no;northeast;11.512
+38;male;38.39;3;yes;southeast;419.492
+48;female;25.85;3;yes;southeast;241.809
+28;female;26.315;3;no;northwest;531.217
+23;male;24.51;0;no;northeast;23.961
+55;male;32.67;1;no;southeast;108.075
+41;male;29.64;5;no;northeast;92.224
+25;male;33.33;2;yes;southeast;361.246
+33;male;35.75;1;yes;southeast;382.827
+30;female;19.95;3;no;northwest;56.934
+23;female;31.4;0;yes;southwest;34.166
+46;male;38.17;2;no;southeast;83.472
+53;female;36.86;3;yes;northwest;466.614
+27;female;32.395;1;no;northeast;1.890.349
+23;female;42.75;1;yes;northeast;409.042
+63;female;25.08;0;no;northwest;142.546
+55;male;29.9;0;no;southwest;10.215
+35;female;35.86;2;no;southeast;58.365
+34;male;32.8;1;no;southwest;1.435.836
+19;female;18.6;0;no;southwest;1.729
+39;female;23.87;5;no;southeast;85.823
+27;male;45.9;2;no;southwest;3.693
+57;male;40.28;0;no;northeast;2.070.902
+52;female;18.335;0;no;northwest;999.104
+28;male;33.82;0;no;northwest;1.967.334
+50;female;28.12;3;no;northwest;110.856
+44;female;25;1;no;southwest;7.624
+26;female;22.23;0;no;northwest;31.763
+33;male;30.25;0;no;southeast;37.044
+19;female;32.49;0;yes;northwest;3.689.873
+50;male;37.07;1;no;southeast;90.480
+41;female;32.6;3;no;southwest;7.955
+52;female;24.86;0;no;southeast;2.711.799
+39;male;32.34;2;no;southeast;63.381
+50;male;32.3;2;no;southwest;9.630
+52;male;32.775;3;no;northwest;1.128.911
+60;male;32.8;0;yes;southwest;5.259.083
+20;female;31.92;0;no;northwest;22.616
+55;male;21.5;1;no;southwest;#¡VALOR!
+42;male;34.1;0;no;southwest;5.980
+18;female;30.305;0;no;northeast;220.374
+58;female;36.48;0;no;northwest;122.358
+43;female;32.56;3;yes;southeast;409.413
+35;female;35.815;1;no;northwest;563.046
+48;female;27.93;4;no;northwest;110.152
+36;female;22.135;3;no;northeast;722.822
+19;male;44.88;0;yes;southeast;397.227
+23;female;23.18;2;no;northwest;1.442.607
+20;female;30.59;0;no;northeast;24.597
+32;female;41.1;0;no;southwest;3.990
+43;female;34.58;1;no;northwest;77.273
+34;male;42.13;2;no;southeast;51.242
+30;male;38.83;1;no;southeast;1.896.317
+18;female;28.215;0;no;northeast;220.083
+41;female;28.31;1;no;northwest;71.536
+35;female;26.125;0;no;northeast;522.799
+57;male;40.37;0;no;southeast;109.825
+29;female;24.6;2;no;southwest;4.529
+32;male;35.2;2;no;southwest;#¡VALOR!
+37;female;34.105;1;no;northwest;611.235
+18;male;27.36;1;yes;northeast;171.787
+43;female;26.7;2;yes;southwest;#¡VALOR!
+56;female;41.91;0;no;southeast;110.936
+38;male;29.26;2;no;northwest;64.578
+29;male;32.11;2;no;northwest;44.339
+22;female;27.1;0;no;southwest;2.154
+52;female;24.13;1;yes;northwest;238.877
+40;female;27.4;1;no;southwest;6.497
+23;female;34.865;0;no;northeast;289.949
+31;male;29.81;0;yes;southeast;193.504
+42;female;41.325;1;no;northeast;765.077
+24;female;29.925;0;no;northwest;285.068
+25;female;30.3;0;no;southwest;2.633
+48;female;27.36;1;no;northeast;94.474
+23;female;28.49;1;yes;southeast;183.282
+45;male;23.56;2;no;northeast;86.038
+20;male;35.625;3;yes;northwest;3.746.534
+62;female;32.68;0;no;northwest;138.448
+43;female;25.27;1;yes;northeast;217.713
+23;female;28;0;no;southwest;1.312.668
+31;female;32.775;2;no;northwest;532.740
+41;female;21.755;1;no;northeast;1.372.547
+58;female;32.395;1;no;northeast;1.301.916
+48;female;36.575;0;no;northwest;867.119
+31;female;21.755;0;no;northwest;413.408
+19;female;27.93;3;no;northwest;1.883.870
+19;female;30.02;0;yes;northwest;333.076
+41;male;33.55;0;no;southeast;56.998
+40;male;29.355;1;no;northwest;639.360
+31;female;25.8;2;no;southwest;4.935
+37;male;24.32;2;no;northwest;61.988
+46;male;40.375;2;no;northwest;873.323
+22;male;32.11;0;no;northwest;20.553
+51;male;32.3;1;no;northeast;#¡VALOR!
+18;female;27.28;3;yes;southeast;182.235
+35;male;17.86;1;no;northwest;51.165
+59;female;34.8;2;no;southwest;3.691.061
+36;male;33.4;2;yes;southwest;38.415
+37;female;25.555;1;yes;northeast;2.029.686
+59;male;37.1;1;no;southwest;12.347
+36;male;30.875;1;no;northwest;537.336
+39;male;34.1;2;no;southeast;2.356.302
+18;male;21.47;0;no;northeast;17.025
+52;female;33.3;2;no;southwest;10.807
+27;female;31.255;1;no;northwest;395.607
+18;male;39.14;0;no;northeast;1.289.006
+40;male;25.08;0;no;southeast;54.157
+29;male;37.29;2;no;southeast;40.581
+46;female;34.6;1;yes;southwest;41.662
+38;female;30.21;3;no;northwest;75.372
+30;female;21.945;1;no;northeast;471.820
+40;male;24.97;2;no;southeast;65.935
+50;male;25.3;0;no;southeast;8.443
+20;female;24.42;0;yes;southeast;2.612.567
+41;male;23.94;1;no;northeast;68.585
+33;female;39.82;1;no;southeast;47.957
+38;male;16.815;2;no;northeast;664.054
+42;male;37.18;2;no;southeast;71.620
+56;male;34.43;0;no;southeast;105.942
+58;male;30.305;0;no;northeast;1.193.826
+52;male;34.485;3;yes;northwest;6.002.140
+20;female;21.8;0;yes;southwest;2.016.734
+54;female;24.605;3;no;northwest;1.247.971
+58;male;23.3;0;no;southwest;11.346
+45;female;27.83;2;no;southeast;85.158
+26;male;31.065;0;no;northwest;269.957
+63;female;21.66;0;no;northeast;144.499
+58;female;28.215;0;no;northwest;1.222.435
+37;male;22.705;3;no;northeast;698.551
+25;female;42.13;1;no;southeast;32.384
+52;male;41.8;2;yes;southeast;47.270
+64;male;36.96;2;yes;southeast;495.777
+22;female;21.28;3;no;northwest;42.963
+28;female;33.11;0;no;southeast;31.716
+18;male;33.33;0;no;southeast;11.359
+28;male;24.3;5;no;southwest;5.615
+45;female;25.7;3;no;southwest;9.102
+33;male;29.4;4;no;southwest;6.059
+18;female;39.82;0;no;southeast;16.340
+32;male;33.63;1;yes;northeast;376.075
+24;male;29.83;0;yes;northeast;186.484
+19;male;19.8;0;no;southwest;1.242
+20;male;27.3;0;yes;southwest;16.233
+40;female;29.3;4;no;southwest;1.582.882
+34;female;27.72;0;no;southeast;44.152
+42;female;37.9;0;no;southwest;6.474
+51;female;36.385;3;no;northwest;1.143.674
+54;female;27.645;1;no;northwest;1.130.593
+55;male;37.715;3;no;northwest;3.006.358
+52;female;23.18;0;no;northeast;101.978
+32;female;20.52;0;no;northeast;45.442
+28;male;37.1;1;no;southwest;3.277
+41;female;28.05;1;no;southeast;67.702
+43;female;29.9;1;no;southwest;7.338
+49;female;33.345;2;no;northeast;1.037.091
+64;male;23.76;0;yes;southeast;269.265
+55;female;30.5;0;no;southwest;#¡VALOR!
+24;male;31.065;0;yes;northeast;3.425.405
+20;female;33.3;0;no;southwest;1.880
+45;male;27.5;3;no;southwest;#¡VALOR!
+26;male;33.915;1;no;northwest;329.253
+25;female;34.485;0;no;northwest;302.181
+43;male;25.52;5;no;southeast;1.447.833
+35;male;27.61;1;no;southeast;47.471
+26;male;27.06;0;yes;southeast;170.433
+57;male;23.7;0;no;southwest;#¡VALOR!
+22;female;30.4;0;no;northeast;2.742
+32;female;29.735;0;no;northwest;435.704
+39;male;29.925;1;yes;northeast;2.246.204
+25;female;26.79;2;no;northwest;41.891
+48;female;33.33;0;no;southeast;82.837
+47;female;27.645;2;yes;northwest;2.453.570
+18;female;21.66;0;yes;northeast;142.835
+18;male;30.03;1;no;southeast;17.204
+61;male;36.3;1;yes;southwest;#¡VALOR!
+47;female;24.32;0;no;northeast;85.347
+28;female;17.29;0;no;northeast;37.326
+36;female;25.9;1;no;southwest;5.472
+20;male;39.4;2;yes;southwest;38.345
+44;male;34.32;1;no;southeast;71.475
+38;female;19.95;2;no;northeast;71.339
+19;male;34.9;0;yes;southwest;34.829
+21;male;23.21;0;no;southeast;15.153
+46;male;25.745;3;no;northwest;930.189
+58;male;25.175;0;no;northeast;1.193.113
+20;male;22;1;no;southwest;#¡VALOR!
+18;male;26.125;0;no;northeast;170.893
+28;female;26.51;2;no;southeast;43.404
+33;male;27.455;2;no;northwest;526.147
+19;female;25.745;1;no;northwest;271.083
+45;male;30.36;0;yes;southeast;6.259.287
+62;male;30.875;3;yes;northwest;4.671.816
+25;female;20.8;1;no;southwest;3.209
+43;male;27.8;0;yes;southwest;378.297
+42;male;24.605;2;yes;northeast;2.125.938
+24;female;27.72;0;no;southeast;24.646
+29;female;21.85;0;yes;northeast;161.153
+32;male;28.12;4;yes;northwest;214.725
+25;female;30.2;0;yes;southwest;33.901
+41;male;32.2;2;no;southwest;6.876
+42;male;26.315;1;no;northwest;694.091
+33;female;26.695;0;no;northwest;457.141
+34;male;42.9;1;no;southwest;4.536
+19;female;34.7;2;yes;southwest;36.398
+30;female;23.655;3;yes;northwest;1.876.588
+18;male;28.31;1;no;northeast;1.127.233
+19;female;20.6;0;no;southwest;1.732
+18;male;53.13;0;no;southeast;11.635
+35;male;39.71;4;no;northeast;1.949.672
+39;female;26.315;2;no;northwest;720.170
+31;male;31.065;3;no;northwest;542.502
+62;male;26.695;0;yes;northeast;2.810.133
+62;male;38.83;0;no;southeast;129.813
+42;female;40.37;2;yes;southeast;438.964
+31;male;25.935;1;no;northwest;423.989
+61;male;33.535;0;no;northeast;1.314.334
+42;female;32.87;0;no;northeast;70.500
+51;male;30.03;1;no;southeast;93.779
+23;female;24.225;2;no;northeast;2.239.574
+52;male;38.6;2;no;southwest;10.325
+57;female;25.74;2;no;southeast;126.292
+23;female;33.4;0;no;southwest;1.079.594
+52;female;44.7;3;no;southwest;11.412
+50;male;30.97;3;no;northwest;106.005
+18;female;31.92;0;no;northeast;22.060
+18;female;36.85;0;no;southeast;16.298
+21;female;25.8;0;no;southwest;2.008
+61;female;29.07;0;yes;northwest;291.414
